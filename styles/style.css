@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.row{
+	background-color: red;
+}
+
+.logo img{
+	width: 15%;
+	height: auto;
+	text-align: center;
+}
