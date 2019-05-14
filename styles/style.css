@@ -1,12 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
-
-.row{
-	background-color: red;
+.container{
+	font-family: 'Quicksand', sans-serif;
 }
-
-.logo img{
+/*Styling af logo*/
+.logo{
 	width: 15%;
 	height: auto;
-	text-align: center;
+	margin: 2.5% 0 2.5% 0;
+}
+
+.sparegris h4{
+	color: #5A2C36;
+}
+.card-columns{
+	margin: 1rem;
+}
+/*Placerer cards centralt*/
+.card {
+   margin: 5% auto; 
+   float: none; 
+   margin-bottom: 10px;
+   border: none;
+}
+/*Bestemmer størrelsen på slideshow billede*/
+.carousel-inner img{
+	height: 400px;
+}
+/*Flytter billedtekst og overskrift på slideshow*/
+.carousel-caption{
+	margin-bottom: 10%;
 }
