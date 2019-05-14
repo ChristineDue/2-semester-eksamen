@@ -9,7 +9,14 @@
 	height: auto;
 	margin: 2.5% 0 2.5% 0;
 }
+.form-inline{
+	display: inline;
+}
 
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
 .sparegris h4{
 	color: #5A2C36;
 }
@@ -23,6 +30,10 @@
    margin-bottom: 10px;
    border: none;
 }
+.card-img img{
+	border-radius:calc(3rem - 1px);
+}
+
 /*Bestemmer størrelsen på slideshow billede*/
 .carousel-inner img{
 	height: 400px;
@@ -30,4 +41,11 @@
 /*Flytter billedtekst og overskrift på slideshow*/
 .carousel-caption{
 	margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 768px){
+/*Fjerner søgefelt på lille skærm*/
+	.form-inline{
+		display: none!important;
+	}
 }
