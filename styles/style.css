@@ -5,23 +5,28 @@
 }
 /*Styling af logo*/
 .logo{
-	width: 15%;
+	width: 18%;
 	height: auto;
-	margin: 2.5% 0 2.5% 0;
+	margin-top: 1.5%;
 }
+.navbar a{
+	padding-left: 10px !important; 
+}
+/*Søgefelt*/
 .form-inline{
 	display: inline;
-}
-
-.active-pink-2 input[type=text]:focus:not([readonly]) {
-    border-bottom: 1px solid #f48fb1;
-    box-shadow: 0 1px 0 0 #f48fb1;
 }
 .sparegris h4{
 	color: #5A2C36;
 }
+.card-header{
+  border-radius: 0;
+}
+.card{
+	border: none!important;
+}
 .card-columns{
-	margin: 1rem;
+	margin: 0 1rem;
 }
 /*Placerer cards centralt*/
 .card {
