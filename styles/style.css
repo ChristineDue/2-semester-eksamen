@@ -9,8 +9,40 @@
 	height: auto;
 	margin-top: 1.5%;
 }
+/*Styling af navigation*/
+/*dropdown knap med inspiration fra: https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+}
+
+.dropdown-content a:hover {
+background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .navbar a{
-	padding-left: 10px !important; 
+	padding-left: 10px; 
+}
+.navbarDropdownMenuLink:hover{
+	color: red;
 }
 /*Søgefelt*/
 .form-inline{
@@ -20,7 +52,7 @@
   border-radius: 0;
 }
 .card{
-	border: none!important;
+	border: none;
 }
 .card-columns{
 	margin: 0 1rem;
@@ -35,7 +67,7 @@
 .card-img img{
 	border-radius:calc(3rem - 1px);
 }
-
+													/*Forside styling*/
 /*Bestemmer størrelsen på slideshow billede*/
 .carousel-inner img{
 	height: 400px;
@@ -44,6 +76,22 @@
 .carousel-caption{
 	margin-bottom: 10%;
 }
+
+													/*Indlæg styling*/
+
+/*General styling*/
+.text-i-row p{
+	font-size: 1.25rem;	
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Playfair Display', serif;
+}
+/*Køkkenside*/
+
+
+
+
 
 @media only screen and (max-width: 768px){
 /*Fjerner søgefelt på lille skærm*/
