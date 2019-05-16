@@ -91,6 +91,23 @@ background-color: #f1f1f1}
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Playfair Display', serif;
 }
+.pLarge{
+	display: inherit;
+	padding-left: 25%;
+}
+.pSmall{
+	display: none;
+	}
+
+p{
+	margin-top: 2%;
+}
+h4{
+	margin-top: 10%;
+}
+.startH4{
+	margin-top: 5%;
+}
 /*Køkkenside*/
 
 /*Stue*/
@@ -102,5 +119,11 @@ h1, h2, h3, h4, h5, h6{
 /*Fjerner søgefelt på lille skærm*/
 	.form-inline{
 		display: none!important;
+	}
+	.pLarge{
+	display: none;
+}
+	.pSmall{
+		display: inline;
 	}
 }

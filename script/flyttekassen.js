@@ -331,7 +331,7 @@ let altanHave = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="hej julie">
+					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" id="insekt" alt="hej julie">
 				</a>
 			</div>
 		</div>
@@ -398,7 +398,7 @@ let bad = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="hej julie">
+					<img src="" class="card-img rounded-0" id="makeoverBad" alt="Makeover af badeværelse">
 				</a>
 			</div>
 		</div>
@@ -532,34 +532,37 @@ let huskelisten = ``
 let okonomi = ``
 //Gode råd siden
 let godeRaadSiden = ``
-//
+//Indlæg om pift stuen
 let piftStuen = `
 <!--indlæg pift din stue-->
-	<div class="row text-i-row">
+	<div class="row text-center text-i-row">
 		<div class="col-12">
 			<h1>4 GODE IDEER TIL AT PIFTE DIN STUE OP</h1>
 		</div>
 	</div>
-	<div class="row text-center text-i-row">
+	<div class="row text-center text-i-row pLarge">
 		<div class="col-2"></div>
 		<div class="col-8">
 			<p>At få en lækker stue kan ofte være en dyr fornøjelse. Her får du tips og tricks til, hvordan du billigt kan pifte din stue op til billige penge!
-				</p>
+			</p>
 		</div>
 		<div class="col-2"></div>
 	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>At få en lækker stue kan ofte være en dyr fornøjelse. Her får du tips og tricks til, hvordan du billigt kan pifte din stue op til billige penge!
+			</p>
+		</div>
+	</div>
+
+
 	<div class="row">
 		<div class="col-2"></div>
 		<div class="col-12 col-md-8">
-			<h4>1. MASSER AF GRØNNE PLANTER</h4>
+			<h4 class="startH4">1. MASSER AF GRØNNE PLANTER</h4>
 			<p>Planter og blomster kan hjælpe din stue med at få nyt liv. Anskaf dig derfor grønne planter og blomster og placer dem i flotte krukker rundt omkring i din stue på gulvet og i vindueskarmen.</p>
-		</div>
-		<div class="col-2"></div>
-	</div>
-	<div class="row text-i-row">
-		<div class="col-2"></div>
-		<div class="col-8">
-			
 		</div>
 		<div class="col-2"></div>
 	</div>
@@ -568,53 +571,159 @@ let piftStuen = `
 			<img class="img-fluid" src="images/stue/plants.jpg" alt="Planter">
 		</div>
 	</div>
-	<div class="row text-center">
-		<div class="col-12 col-md-6">
-			<h4>2. PLAKATER PÅ DINE HVIDE VÆGGE</h4>
-			<img src="poster.png" alt="">
-		</div>
-	</div>
-		<div class="row text-center text-i-row">
+	<div class="row">
 		<div class="col-2"></div>
-		<div class="col-8">
-				
+		<div class="col-12 col-md-8">
+			<h4>2. PLAKATER PÅ DINE HVIDE VÆGGE</h4>
 			<p>Hvide vægge giver ofte et kedeligt og upersonligt udtryk. Køb billige plakater og billeder på loppemarkeder og hæng dem op. Du kan finde en guide til hvordan du nemt hænger plakater op her (lav en button hvor en html side med en guide kommer frem når der trykkes)</p>
 		</div>
 		<div class="col-2"></div>
 	</div>
-		<div class="row text-center">
-		<div class="col-12 col-md-6">
-			<h4>3. PUDER I SOFAEN</h4>
-			<img src= puder alt="">
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/stue/poster.jpg" alt="Plakat">
 		</div>
 	</div>
-		<div class="row text-center text-i-row">
+
+	<div class="row">
 		<div class="col-2"></div>
-		<div class="col-8">
-				
+		<div class="col-12 col-md-8">
+			<h4>3. PUDER I SOFAEN</h4>
 			<p>En sort sofa der passer til alle farver kan let piftes op med puder i alverdens farver. Find billige puder på loppemarkeder eller i IKEA. </p>
 		</div>
 		<div class="col-2"></div>
 	</div>
-	<div class="row text-center">
-		<div class="col-12 col-md-6">
-			<h4>4. NIPS I BOGREOLEN</h4>
-			<img src=""morsreol alt="">
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/stue/puder.jpg" alt="Puder">
 		</div>
 	</div>
-	<div class="row text-center text-i-row">
+	<div class="row">
 		<div class="col-2"></div>
-		<div class="col-8">
-				
+		<div class="col-12 col-md-8">
+			<h4>4. NIPS I BOGREOLEN</h4>
 			<p>En bogreol er ofte kedelig at kigge på og giver meget lidt til indretningen. Stil dine nips ting foran dine bøger. Det skaber et legende udtryk samtidig med, at de lidt kedelige studiebøger bliver gemt væk når der kommer gæster. </p>
 		</div>
 		<div class="col-2"></div>
 	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/stue/skabmedfigurer.png" alt="Reol med figurer">
+		</div>
+	</div>
 `
-//
-let  = ``
-//
-let  = ``
+//Makeover af badeværelse
+let makeoverBad = `
+<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>BADEVÆRELSESMAKEOVER</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
+			Denne guide er nemlig til dig, som ikke har mange penge mellem hænder og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt.
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
+			Denne guide er nemlig til dig, som ikke har mange penge mellem hænder og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt.
+			</p>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">1. HÆNG SKABE OG HYLDER OP</h4>
+			<p>Hvis du står og mangler skabsplads, kan investere i nogle nye skabe, ikke blot løse dit skabsplads problem, men også giv badeværelset et helt nyt look!  
+			Med hylder kan du pimpe badeværelset op med dine bedste brugsgenstand og andre nips ting.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/badevaerelse/hylde.jpg" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>2. BRUG DINE KLINKER</h4>
+			<p>80ér klinker behøver ikke være dit badeværelses svaghed. Ram genbrugsbutikkerne og grav gamle møbler, vaser, spejle og små ting, fra samme periode frem! Vær badeværelses periode tro og få et stilmæssigt mere sammenhængende værelse.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/badevaerelse/klinker.png" alt="Plakat">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>3. SKIFT DINE GREB OG ARMATUR</h4>
+			<p>Det er utroligt, hvad de små detaljer kan gøre for dit badeværelse. Udskift dine greb og armatur og se dit badeværelse forvandle sig. Greb kan du både være heldig og finde hos din genbrug ellers kan du investerer, til næsten ingen penge, i nogle nye fra en boligbutik.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/badevaerelse/badearmatur.jpg" alt="Puder">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>4. VÆR IKKE BANGE FOR AT MALE VÆGGEN</h4>
+			<p>Få gang i farverne og vær ikke bange for at give den for meget! Stærke farver er et hit. Køb billig maling fra DBA og giv dit badeværelse en helt ny karakter.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/badevaerelse/mal.jpg" alt="Reol med figurer">
+		</div>
+	</div>
+
+
+`
+//Insekthotel
+let insekt = `
+<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>INSEKTHOTEL</h1>
+			<p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>
+		</div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/altanoghave/insekthus.jpg" alt="Planter">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">INSTRUKTIONER</h4>
+			<p>Insekter spiller en væsentlig rolle i vores økosystem og det er vigtigt at vi passer på dem.
+			Hvad skal du bruge: En beholder, træstykker, pinde, brak,nedfaldende blad og grankogler. 	<br>
+			Sådan bygger du nemt og hurtigt et insekthotel.</p>
+			<p>1. Anskaf en beholder, som kan skabe rammer for hotellet. Dette kan eksempelvis være en dåse eller en gamle kasse, som du har liggende.</p>
+			<p>2. Gå en tur i haven eller naturen og indsaml nedfaldne blade, træstykker, grankogler og pinde. Disse skal du bruge til at udfylde dit hotel. Pak det så tæt som muligt.</p>
+			<p>3. Dit hotel er nu klar til gæster! Du skal blot placér hotellet et solrigt sted, som er i ly for vind og vejr. Et oplagt sted kunne eksempelvis være på din terrassen/altanen eller i enden af haven.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+`
 //
 let  = ``
 
@@ -634,6 +743,8 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		
 	//her starter indlæg
 		piftStuen: piftStuen,
+		makeoverBad: makeoverBad,
+		insekt: insekt,
 		
     }
 	
@@ -670,6 +781,8 @@ document.getElementById('page').addEventListener('click', function (e) {
 		entre: entre,
 	//her starter indlæg
 		piftStuen: piftStuen,
+		makeoverBad: makeoverBad,
+		insekt: insekt,
     }
 	console.log('i am the magic')
 	console.log(e.target.id)
