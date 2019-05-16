@@ -263,7 +263,7 @@ let stue = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="hej julie">
+					<img src="images/stue/lampetekst.png" id="piftStuen" class="card-img rounded-0" alt="hej julie">
 				</a>
 			</div>
 		</div>
@@ -465,7 +465,7 @@ let entre = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="hej julie">
+					<img src="images/entre/noegleskab.jpg" class="card-img rounded-0" alt="hej julie">
 				</a>
 			</div>
 		</div>
@@ -533,7 +533,84 @@ let okonomi = ``
 //Gode råd siden
 let godeRaadSiden = ``
 //
-let  = ``
+let piftStuen = `
+<!--indlæg pift din stue-->
+	<div class="row text-i-row">
+		<div class="col-12">
+			<h1>4 GODE IDEER TIL AT PIFTE DIN STUE OP</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>At få en lækker stue kan ofte være en dyr fornøjelse. Her får du tips og tricks til, hvordan du billigt kan pifte din stue op til billige penge!
+				</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>1. MASSER AF GRØNNE PLANTER</h4>
+			<p>Planter og blomster kan hjælpe din stue med at få nyt liv. Anskaf dig derfor grønne planter og blomster og placer dem i flotte krukker rundt omkring i din stue på gulvet og i vindueskarmen.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+			
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/stue/plants.jpg" alt="Planter">
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="col-12 col-md-6">
+			<h4>2. PLAKATER PÅ DINE HVIDE VÆGGE</h4>
+			<img src="poster.png" alt="">
+		</div>
+	</div>
+		<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+				
+			<p>Hvide vægge giver ofte et kedeligt og upersonligt udtryk. Køb billige plakater og billeder på loppemarkeder og hæng dem op. Du kan finde en guide til hvordan du nemt hænger plakater op her (lav en button hvor en html side med en guide kommer frem når der trykkes)</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+		<div class="row text-center">
+		<div class="col-12 col-md-6">
+			<h4>3. PUDER I SOFAEN</h4>
+			<img src= puder alt="">
+		</div>
+	</div>
+		<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+				
+			<p>En sort sofa der passer til alle farver kan let piftes op med puder i alverdens farver. Find billige puder på loppemarkeder eller i IKEA. </p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center">
+		<div class="col-12 col-md-6">
+			<h4>4. NIPS I BOGREOLEN</h4>
+			<img src=""morsreol alt="">
+		</div>
+	</div>
+	<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+				
+			<p>En bogreol er ofte kedelig at kigge på og giver meget lidt til indretningen. Stil dine nips ting foran dine bøger. Det skaber et legende udtryk samtidig med, at de lidt kedelige studiebøger bliver gemt væk når der kommer gæster. </p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+`
 //
 let  = ``
 //
@@ -554,6 +631,9 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		altanHave: altanHave,
 		bad: bad,
 		entre: entre,
+		
+	//her starter indlæg
+		piftStuen: piftStuen,
 		
     }
 	
@@ -588,6 +668,8 @@ document.getElementById('page').addEventListener('click', function (e) {
 		altanHave: altanHave,
 		bad: bad,
 		entre: entre,
+	//her starter indlæg
+		piftStuen: piftStuen,
     }
 	console.log('i am the magic')
 	console.log(e.target.id)

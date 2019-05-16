@@ -2,6 +2,7 @@
 /* CSS Document */
 .container{
 	font-family: 'Quicksand', sans-serif;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.24);
 }
 /*Styling af logo*/
 .logo{
@@ -37,6 +38,9 @@ background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.navbar {
+	margin-bottom: 15%;
 }
 .navbar a{
 	padding-left: 10px; 
@@ -89,7 +93,11 @@ h1, h2, h3, h4, h5, h6{
 }
 /*Køkkenside*/
 
-
+/*Stue*/
+.planter img{
+	height: auto;
+	width: 30%;
+}
 @media only screen and (max-width: 768px){
 /*Fjerner søgefelt på lille skærm*/
 	.form-inline{
