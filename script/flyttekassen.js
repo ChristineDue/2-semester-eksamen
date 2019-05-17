@@ -223,7 +223,7 @@ let sovevaerelse = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/sengeset.jpg" class="card-img rounded-0" alt="hej julie">
+					<img src="images/sovevaerelse/sengeset.jpg" id="sengeSat" class="card-img rounded-0" alt="hej julie">
 				</a>
 			</div>
 		</div>
@@ -366,14 +366,14 @@ let altanHave = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/altan.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/altanoghave/altan.jpg" id="altanSat" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/eggs.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/altanoghave/eggs.jpg" id="skrald" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -440,7 +440,7 @@ let bad = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/badevaerelse/plet.png" id="plet" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -660,7 +660,7 @@ let makeoverBad = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
 		<div class="col-12">
-			Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
+			<p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
 			Denne guide er nemlig til dig, som ikke har mange penge mellem hænder og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt.
 			</p>
 		</div>
@@ -721,8 +721,6 @@ let makeoverBad = `
 			<img class="img-fluid" src="images/badevaerelse/mal.jpg" alt="Reol med figurer">
 		</div>
 	</div>
-
-
 `
 //Insekthotel
 let insekt = `
@@ -732,12 +730,21 @@ let insekt = `
 			<p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>
 		</div>
 	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!
+			</p>
+		</div>
+	</div>
+
+
 	<div class="row text-center planter">
 		<div class="col-12">
 			<img class="img-fluid" src="images/altanoghave/insekthus.jpg" alt="Planter">
 		</div>
 	</div>
-
 	<div class="row">
 		<div class="col-2"></div>
 		<div class="col-12 col-md-8">
@@ -752,9 +759,342 @@ let insekt = `
 		<div class="col-2"></div>
 	</div>
 `
-//
-let  = ``
+//Få den plet væk
+let plet = `
+<!--Indlæg "få den plet væk"-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>FÅ DEN PLET VÆK</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Her får du det bedste trick til at fjerne alle slags pletter på tøjet!</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
 
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Her får du det bedste trick til at fjerne alle slags pletter på tøjet!</p>
+		</div>
+	</div>
+
+
+
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/badevaerelse/real_plet.jpg" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Du skal bruge: en plastiskpose og noget opvaskemiddel. Andet behøver du faktisk ikke!</p>
+			<p>1. Tag dit tøj ned i plastiskposen</p>
+			<p>2. Hæld en god mængde opvaskemiddel på pletten</p>
+			<p>3. Fold dit tøj sammen, så pletten og opvaskemidlet er pakket godt ind</p>
+			<p>4. Luk posen og vent 24 timer</p>
+			<p>5. Vask dit tøj i vaskemaskinen</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Tricket virker hver gang, det har endnu ikke slået fejl! Du kan fjerne både motorolie, solcreme, syltetøj og mange andre ting på denne måde</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+`
+//Indlæg og "fra skrald til køkkenhave"
+let skrald = `
+<!--Indlæg "skrald i køkkenhaven"-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>FRA SKRALD TIL KØKKENHAVE</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Forvandle dine æggeskaller til din helt egen køkkenhave!</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Forvandle dine æggeskaller til din helt egen køkkenhave!</p>
+		</div>
+	</div>
+
+
+
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/altanoghave/eggsforside.jpg" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Du skal bruge: en smule jord, æggeskaller, en æggebakke, plantefrø og en lille portion tålmodighed</p>
+			<p>1. Prik et lille drænhul i bunden af din æggeskal</p>
+			<p>2. Fyld æggeskallerne næsten op til toppen med fugtigt jord</p>
+			<p>3. Brug derefter din finger til at lave et hul i jorden, det skal cirka være en 1 cm dybt</p>
+			<p>4. Plant dine frø og dæk dem til med jord</p>
+			<p>5. Placer æggebakken et solrigt og varmt sted</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Æggeskaller indeholder en masse calcium som planterne kan nyde godt af, og som kan give gode vækstbetingelser. Æggeskallerne vil skabe den perfekte grobund for din køkkenhave og når frøene er vokset kan du omplante dem i større krukker eller beholdere.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/altanoghave/potteplante.jpg" alt="Planter">
+		</div>
+	</div>
+`
+//Indlæg om altansæt
+let altanSat = `
+<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>FIND DIT ALTANSÆT</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET HYGGELIGE SÆT</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<img class="img-fluid" src="images/altanoghave/hyggeligemobler.jpg" alt="Planter">
+				</div>
+			</div>
+			<p>Det her sæt er et cafesæt, og den slags kan fås i de fleste møbelforretninger som også har havemøbler bare i forskellige udgaver. Et godt tip er at købe det i en frisk farve, så man kan komme i endnu højere humør når man skal sidde ude og nyde solen. </p>
+			<p>Find det<a href="https://www.beliani.dk/cafesaet-foldebord-med-2-stol-bla-fiori.html"> her</a></p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET HOLDBARE OG TRADITIONELLE SÆT</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<img class="img-fluid" src="images/altanoghave/traemobler.jpg" alt="Planter">
+				</div>
+			</div>
+			<p>Nogen gange er det man kender altså bare bedst. De fleste kender nogle der har et havemøbelsæt i træ, da det er praktisk, pænt og komfortabelt. Dette sæt vi har fundet til jer, er med et bord som også kan fungere som bakke. Det kan være super praktisk når du skal have din mad eller andre ting med inde fra huset og ud på altanen.</p>
+			<p>Find det<a href="https://www.beliani.dk/altanet-havemobelset-tre-2stole-1bord-toscana.html"> her</a></p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MERE FANCY SÆT</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<img class="img-fluid" src="images/altanoghave/fancymobler.jpg" alt="Planter">
+				</div>
+			</div>
+			<p>Sættet her er mere til dem der går op i kvalitet og udseende. Det er det helt rigtige sæt til dig der gerne vil have de fede instagram altan billeder. Udover at det ser godt ud, så kan vi næsten garanterer for at det også er komfortabelt.</p>
+			<p>Find det<a href="https://www.beliani.dk/udendors-indendors-cafe-sat-altan-sat-bord-og-2-stole-hvid-acapulco.html"> her</a></p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+`
+let sengeSat = `
+<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>SOV GODT MED LÆKRE SENGESÆT</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET GLATTE</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/basic/sengesaet-nova-sgl-lilla" target="_blank">
+						<img src="images/sovevaerelse/glatte.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED TERN </h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/plus/sengesaet-pamela-sgl" target="_blank">
+						<img src="images/sovevaerelse/tern.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED TEKST</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/gold/sengesaet-dicte-sgl-kronborg" target="_blank">
+						<img src="images/sovevaerelse/tekst.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED PRIKKER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/plus/sengesaet-thea-sgl-koral" target="_blank">
+						<img src="images/sovevaerelse/prikker.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED STRIBER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/gold/sengesaet-anneline-sgl-bla-hoie" target="_blank">
+						<img src="images/sovevaerelse/striber.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED CIRKLER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/plus/sengesaet-freydis-sgl" target="_blank">
+						<img src="images/sovevaerelse/cirkler.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED BLOMSTER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/krep/basic/sengesaet-alvina-krep-sgl" target="_blank">
+						<img src="images/sovevaerelse/blomster.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET MED BØLGER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/krep/basic/sengesaet-sinja-krep-sgl" target="_blank">
+						<img src="images/sovevaerelse/bolger.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET HVIDE OG DET DOBBELTE</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/satin/gold/sengesaet-ingeborg-satin-dob-hvid-0" target="_blank">
+						<img src="images/sovevaerelse/hvide.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4 class="startH4">DET FINE MØNSTER</h4>
+			<div class="text-center altan">
+				<div class="col-12">
+					<a href="https://jysk.dk/sovevaerelse/sengesaet/glat/gold/sengesaet-paula-sgl" target="_blank">
+						<img src="images/sovevaerelse/monster.jpeg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-2"></div>
+	</div>	
+`
 //Her sker alt magien, vi kigger på om en knap bliver trykket på
 //Hvis den gør så sker følgende
 document.getElementById('navPage').addEventListener('click', function (e){
@@ -769,10 +1109,15 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		bad: bad,
 		entre: entre,
 		
+		
 	//her starter indlæg
 		piftStuen: piftStuen,
 		makeoverBad: makeoverBad,
 		insekt: insekt,
+		plet: plet,
+		skrald: skrald,
+		altanSat: altanSat,
+		sengeSat: sengeSat,
 		
     }
 	
@@ -807,10 +1152,15 @@ document.getElementById('page').addEventListener('click', function (e) {
 		altanHave: altanHave,
 		bad: bad,
 		entre: entre,
+		
 	//her starter indlæg
 		piftStuen: piftStuen,
 		makeoverBad: makeoverBad,
 		insekt: insekt,
+		plet: plet,
+		skrald: skrald,
+		altanSat: altanSat,
+		sengeSat: sengeSat,
     }
 	console.log('i am the magic')
 	console.log(e.target.id)
