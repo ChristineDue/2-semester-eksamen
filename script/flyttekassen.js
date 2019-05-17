@@ -20,10 +20,10 @@ let home = `
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="images/cut.png" class="d-block w-100" alt="...">
+							<img src="images/slideshow/ikea-tur.jpg" class="d-block w-100" alt="...">
 							<div class="carousel-caption d-none d-md-block">
-								<h3>5 gode rengøringsråd!</h3>
-								<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+								<h3>Din første IKEA-tur!</h3>
+								<p>Har du svært ved at finde ud af, hvad du skal købe i IKEA, så følg med!</p>
 							</div>
 						</div>
 						<div class="carousel-item">
@@ -56,19 +56,46 @@ let home = `
 <!--Content start-->
 	<div class="row align-content-center">
 		<div class="card-columns">
-			<div class="card"> <a href="#"><img class="card-img-top rounded-0" src="images/how-to-incorporate-at-ease-pantone-color-palette-into-your-home_2.jpg" alt="Card image cap"></a></div>
-			<div class="card"> <img class="card-img-top rounded-0" src="images/Indretningsideer-Billedvæg-plakater-fra-ViSSEVASSE-varme-farver.jpg" alt="Card image cap"> </div>
-			<div class="card"> <img class="card-img rounded-0" src="images/74031539bea8572d7decf6e52bebddd92601d50e.jpg" alt="Card image"> </div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/altanoghave/insekt_part2.jpg" alt="Card image cap">
+				</a>
+			</div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/altanoghave/eggs.jpg" alt="Card image cap">
+				</a>
+			</div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/koekken/nudler.png" alt="Card image cap">
+				</a>
+			</div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/goderaad/handbog.png" alt="Card image cap">
+				</a>
+			</div>
 			<div class="card text-center"> 
 				<a href="#">
-					<h4 class="card-title"> TEXT OVER IMAGE </h4>
-					<img class="card-img rounded-0" src="images/genbrugsmoebler_flytte_hjemmefra_liste.jpg" alt="Card image">
+					<img class="card-img rounded-0" src="images/badevaerelse/makeover_front.png" alt="Card image">
 				</a> 
 			</div>
-			<div class="card"> <img class="card-img rounded-0" src="images/kitchen.jpg" alt="Card image"> </div>
-			<div class="card text-right"> <img class="card-img rounded-0" src="images/gris.jpg" alt="Card image"> </div>
-			<div class="card text-right"> <img class="card-img rounded-0" src="images/logo.png" alt="Card image"> </div>
-			<div class="card text-right"> <img class="card-img rounded-0" src="images/bad.png" alt="Card image"> </div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/goderaad/roomie.jpg" alt="Card image cap">
+				</a>
+			</div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/oekonomi/licens.png" alt="Card image cap">
+				</a>
+			</div>
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/sovevaerelse/seng.jpg" alt="Card image cap">
+				</a>
+			</div>
 		</div>
   	</div>
 `
@@ -331,7 +358,7 @@ let altanHave = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" id="insekt" alt="hej julie">
+					<img src="images/altanoghave/insekt_part2.jpg" class="card-img rounded-0" id="insekt" alt="hej julie">
 				</a>
 			</div>
 		</div>
@@ -398,7 +425,7 @@ let bad = `
 		<div class="col-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="" class="card-img rounded-0" id="makeoverBad" alt="Makeover af badeværelse">
+					<img src="images/badevaerelse/makeover_card.png" class="card-img rounded-0" id="makeoverBad" alt="Makeover af badeværelse">
 				</a>
 			</div>
 		</div>
