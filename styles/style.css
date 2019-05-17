@@ -10,7 +10,10 @@
 	height: auto;
 	margin-top: 1.5%;
 }
-
+/*Slidehow*/
+.slideshowLarge{
+	display: inline;
+}
 .carousel-inner{
 	margin-bottom: 5%;
 }
@@ -127,13 +130,17 @@ h4{
 }
 @media only screen and (max-width: 768px){
 /*Fjerner søgefelt på lille skærm*/
-	.form-inline{
-		display: none!important;
-	}
-	.pLarge{
+.form-inline{
+	display: none!important;
+}
+.pLarge{
 	display: none;
 }
-	.pSmall{
-		display: inline;
-	}
+.pSmall{
+	display: inline;
+}
+	/*Slidehow*/
+.slideshowLarge{
+	display: none;
+}
 }
