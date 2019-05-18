@@ -28,10 +28,10 @@ let home = `
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="images/genbrugsmoebler_flytte_hjemmefra_liste.jpg" class="d-block w-100" alt="...">
-							<div class="carousel-caption d-none d-md-block">
-								<h3>5 gode rengøringsråd!</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<img src="images/slideshow/flyttekasse_illustration.png" id="flyttemand" class="d-block w-100" alt="...">
+							<div class="carousel-caption d-none d-md-block" id="flyttemand">
+								<h3>Er du klar til din flyttemand?</h3>
+								<p>Er du begravet i flytterod. Få gode tips til hvordan du bliver klar til flyttemanden!</p>
 							</div>
 						</div>
 						<div class="carousel-item">
@@ -69,7 +69,7 @@ let home = `
 			</div>
 			<div class="card"> 
 				<a href="#">
-					<img class="card-img-top rounded-0" src="images/koekken/nudler.png" alt="Card image cap">
+					<img class="card-img-top rounded-0" src="images/koekken/nudler.png" id="simpelMad" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card"> 
@@ -176,7 +176,7 @@ let koekken = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/koekken/madlavning.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/koekken/madlavning.png" id="simpelMad" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -635,7 +635,63 @@ let huskelisten = ``
 //Økonomisiden
 let okonomi = ``
 //Gode råd siden
-let godeRaadSiden = ``
+let godeRaad = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li class="sidsteCrumb">GODE RÅD</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Boligside-->
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/goderaad/flyttemand.png" id="flyttemand" class="card-img rounded-0" alt="soveværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/goderaad/handbog.png" id="handbog" class="card-img rounded-0" alt="stue">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/goderaad/roomie.jpg" id="roomie" class="card-img rounded-0" alt="badeværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/koekken.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/altanoghave.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/entre.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+				</a>
+			</div>
+		</div>
+		</div>
+`
 //Indlæg om pift stuen
 let piftStuen = `
 <!--BREADCRUMBSTIEN-->
@@ -1082,6 +1138,7 @@ let altanSat = `
 	</div>
 
 `
+//Indlæg om sengesæt
 let sengeSat = `
 <!--BREADCRUMBSTIEN-->
 <div class="row">
@@ -1258,6 +1315,122 @@ let sengeSat = `
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 `
+//Indlæg om "er du klar til din flyttemand"
+let flyttemand = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="godeRaad">GODE RÅD</a></li>
+			  <li class="sidsteCrumb">ER DU KLAR TIL DIN FLYTTEMAND</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Indlæg "skrald i køkkenhaven"-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>ER DU KLAR TIL DIN FLYTTEMAND</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Dette er en guide, som sikre dig mod uønskede problemer med både bestillingen af flyttemænd eller på selve din flyttedag. Om flytningen ordnes af et flyttefirma, venner eller dine forældre er denne guide altid hensigtsmæssig at have i baghovedet!</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Dette er en guide, som sikre dig mod uønskede problemer med både bestillingen af flyttemænd eller på selve din flyttedag. Om flytningen ordnes af et flyttefirma, venner eller dine forældre er denne guide altid hensigtsmæssig at have i baghovedet!</p>
+		</div>
+	</div>
+
+
+
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/goderaad/flyttemand.jpg" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>1. Lav en liste over alle dine møbler/genstande, som du skal have flyttet. 
+			Noter eventuelt om du har genstand, flyttemanden skal være ekstra varsom med.
+			Listen vil give dig et bedre overblik, når du taler med din flyttemand i telefonen.
+			</p>
+			<p>2. Fortæl din flyttemand om du har brug for hjælp med at afmonterer vaskemaskinen eller lamper. Hvis du har problemer med at gøre andre ting selv, som eksempelvis flytterengøring eller at tage dine gardiner ned, kan du altid spørger din flyttemand</p>
+			<p>3. Fortæl din flyttemand, hvor du bor og hvilke muligheder de har for parkering?  
+			Skal du flytte fra 4. sal eller fra dine forældres 1-plans parcelhus. Fortæl også
+			flyttemanden, hvor du skal flytte hen
+			</p>
+			<p>4. Det er altid en god ide at spørge flyttemanden indtil til forsikring, i tilfælde af, at der
+			skulle ske noget. Flyttemanden sørger naturligvis for at passe på dine ting, men for
+			en sikkerheds skyld
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+`
+//Indlæg om simpel madlavning
+let simpelMad = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="koekken">KØKKEN</a></li>
+			  <li class="sidsteCrumb">SIMPEL MADLAVNING</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+
+<!--indlæg om "simpel madlavning"--> 
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>SIMPEL MADLAVNING</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Er du lige flyttet hjemmefra og har været vant til, at det var mor der stod for aftensmaden? Så bare rolig vi lære dig her hvordan du kan lave den simpleste og lækreste mad helt selv
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Er du lige flyttet hjemmefra og har været vant til, at det var mor der stod for aftensmaden? Så bare rolig vi lære dig her hvordan du kan lave den simpleste og lækreste mad helt selv
+			</p>
+		</div>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-12 col-md-6 mad">
+			<img src="images/koekken/ris2.png" alt="">
+		</div>
+		<div class="col-12 col-md-6 mad">
+			<img src="images/koekken/kodsovs1.png" alt="">
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="col-12 col-md-6 mad">
+			<img src="images/koekken/nudler.png" alt="">
+		</div>
+		<div class="col-12 col-md-6 mad">
+			<img src="images/koekken/salat.png" alt="">
+		</div>
+	</div>
+`
 //Her sker alt magien, vi kigger på om en knap bliver trykket på
 //Hvis den gør så sker følgende
 document.getElementById('navPage').addEventListener('click', function (e){
@@ -1271,6 +1444,7 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		altanHave: altanHave,
 		bad: bad,
 		entre: entre,
+		godeRaad: godeRaad,
 		
 		
 	//her starter indlæg
@@ -1281,7 +1455,8 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		skrald: skrald,
 		altanSat: altanSat,
 		sengeSat: sengeSat,
-		
+		flyttemand: flyttemand,
+		simpelMad: simpelMad,
     }
 	
 	console.log('i am the navbar')
@@ -1315,6 +1490,7 @@ document.getElementById('page').addEventListener('click', function (e) {
 		altanHave: altanHave,
 		bad: bad,
 		entre: entre,
+		godeRaad: godeRaad,
 		
 	//her starter indlæg
 		piftStuen: piftStuen,
@@ -1324,6 +1500,9 @@ document.getElementById('page').addEventListener('click', function (e) {
 		skrald: skrald,
 		altanSat: altanSat,
 		sengeSat: sengeSat,
+		flyttemand: flyttemand,
+		simpelMad: simpelMad,
+		
     }
 	console.log('i am the magic')
 	console.log(e.target.id)

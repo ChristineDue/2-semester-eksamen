@@ -73,9 +73,13 @@ ul.breadcrumb li a:hover {
 }
 .carousel-caption{
 	background-color: rgba(255, 255, 255, 0.75);
+	cursor: pointer;
 }
 .carousel-caption p, .carousel-caption h3{
 	color: black;
+}
+.carousel img{
+	cursor: pointer;
 }
 /*Styling af navigation*/
 /*dropdown knap med inspiration fra: https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_button*/
@@ -176,7 +180,11 @@ h4{
 	margin-top: 5%;
 }
 /*Køkkenside*/
-
+.mad img{
+	height: auto;
+	width: 100%;
+	margin-bottom: 5%;
+}
 /*Stue*/
 .planter img{
 	height: auto;
