@@ -102,6 +102,16 @@ let home = `
 `
 // Boligsiden
 let bolig = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li class="sidsteCrumb">BOLIG</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <!--Boligside-->
 	<div class="row">
 		<div class="col-12 col-md-6">
@@ -150,6 +160,17 @@ let bolig = `
 `
 //Køkkensiden
 let koekken = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">KØKKEN</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <!--Køkkenside-->
 <div class="row">
 		<div class="col-12 col-md-4">
@@ -219,6 +240,17 @@ let koekken = `
 `
 //Soveværelsesiden
 let sovevaerelse = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">SOVEVÆRELSE</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row">
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
@@ -287,6 +319,17 @@ let sovevaerelse = `
 `
 //Stuesiden
 let stue = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">STUE</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row">
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
@@ -355,6 +398,17 @@ let stue = `
 `
 //Altan- og havesiden
 let altanHave = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">ALTAN OG HAVE</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row">
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
@@ -422,6 +476,17 @@ let altanHave = `
 		</div>`
 //Badeværeslessiden
 let bad = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">BADEVÆRELSE</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row">
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
@@ -489,6 +554,17 @@ let bad = `
 		</div>`
 //Entrésiden
 let entre = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">ENTRÉ</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row">
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
@@ -562,6 +638,18 @@ let okonomi = ``
 let godeRaadSiden = ``
 //Indlæg om pift stuen
 let piftStuen = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="stue">STUE</a></li>
+			  <li class="sidsteCrumb">4 GODE IDÉER TIL AT PIFTE DIN STUE OP</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <!--indlæg pift din stue-->
 	<div class="row text-center text-i-row">
 		<div class="col-12">
@@ -642,6 +730,18 @@ let piftStuen = `
 `
 //Makeover af badeværelse
 let makeoverBad = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="badevaerelse">BADEVÆRELSE</a></li>
+			  <li class="sidsteCrumb">BADEVÆRELSESMAKEOVER</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row text-center text-i-row">
 		<div class="col-12">
 			<h1>BADEVÆRELSESMAKEOVER</h1>
@@ -724,6 +824,18 @@ let makeoverBad = `
 `
 //Insekthotel
 let insekt = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="altanHave">ALTAN OG HAVE</a></li>
+			  <li class="sidsteCrumb">INSEKTHOTEL</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row text-center text-i-row">
 		<div class="col-12">
 			<h1>INSEKTHOTEL</h1>
@@ -761,6 +873,18 @@ let insekt = `
 `
 //Få den plet væk
 let plet = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="bad">BADEVÆRELSE</a></li>
+			  <li class="sidsteCrumb">FÅ DEN PLET VÆK</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <!--Indlæg "få den plet væk"-->
 	<div class="row text-center text-i-row">
 		<div class="col-12">
@@ -811,6 +935,18 @@ let plet = `
 `
 //Indlæg og "fra skrald til køkkenhave"
 let skrald = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="altanHave">ALTAN OG HAVE</a></li>
+			  <li class="sidsteCrumb">FRA SKRALD TIL KØKKENHAVE</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <!--Indlæg "skrald i køkkenhaven"-->
 	<div class="row text-center text-i-row">
 		<div class="col-12">
@@ -866,6 +1002,19 @@ let skrald = `
 `
 //Indlæg om altansæt
 let altanSat = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="altanHave">ALTAN OG HAVE</a></li>
+			  <li class="sidsteCrumb">FIND DIT ALTANSÆT</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Indlæg om altansæt-->
 <div class="row text-center text-i-row">
 		<div class="col-12">
 			<h1>FIND DIT ALTANSÆT</h1>
@@ -934,6 +1083,18 @@ let altanSat = `
 
 `
 let sengeSat = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li><a href="#" id="sovevaerelse">SOVEVÆRELSE</a></li>
+			  <li class="sidsteCrumb">LÆKRE SENGESÆT</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
 <div class="row text-center text-i-row">
 		<div class="col-12">
 			<h1>SOV GODT MED LÆKRE SENGESÆT</h1>
@@ -1093,7 +1254,9 @@ let sengeSat = `
 			</div>
 		</div>
 		<div class="col-2"></div>
-	</div>	
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 `
 //Her sker alt magien, vi kigger på om en knap bliver trykket på
 //Hvis den gør så sker følgende
@@ -1179,3 +1342,26 @@ document.getElementById('page').addEventListener('click', function (e) {
     }
     }
 })
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+
+//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+// When the user clicks on the button, scroll to the top of the document
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+
