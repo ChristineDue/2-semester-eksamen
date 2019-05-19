@@ -35,7 +35,7 @@ let home = `
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="images/74031539bea8572d7decf6e52bebddd92601d50e.jpg" class="d-block w-100" alt="...">
+							<img src="images/slideshow/huskeliste2.jpg" class="d-block w-100" alt="...">
 							<div class="carousel-caption d-none d-md-block">
 								<h3>5 gode rengøringsråd!</h3>
 								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -55,6 +55,11 @@ let home = `
 		</div>
 	</div>	
 <!--Content start-->
+
+	<div class="embed-responsive embed-responsive-21by9">
+						  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Jg-0cIXZBoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+
 	<div class="row align-content-center">
 		<div class="card-columns">
 			<div class="card"> 
@@ -190,49 +195,49 @@ let koekken = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/altanoghave/insekt.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/koekken/ukrudt.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/green.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/red.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightbrown.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightblue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightpink.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -269,49 +274,49 @@ let sovevaerelse = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/sovevaerelse/pynt.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/green.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images//colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images//colors/lightpink.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images//colors/blue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images//colors/grey.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/sovevaerelse/seng.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images//colors/lightblue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -334,63 +339,63 @@ let stue = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" id="piftStuen" class="card-img rounded-0" alt="hej julie">
+					<img src="images/stue/hyggestuen.jpg" id="piftStuen" class="card-img rounded-0" alt="hej julie">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/stue/fem_fejl.png" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightpink.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/blue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightgreen.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/grey.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/red.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/stue/lampetekst.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/brown.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -434,42 +439,42 @@ let altanHave = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/altanoghave/gronne_fingre.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/altanoghave/kaktus.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/altanoghave/pimp_krukker.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/blue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/red.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/green.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -519,35 +524,35 @@ let bad = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/badevaerelse/badeforhang.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/badevaerelse/tojvask.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightgreen.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightpink.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/badevaerelse/plet.png" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
@@ -576,64 +581,176 @@ let entre = `
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/altan.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightbrown.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/eggs.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/brown.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/red.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/green.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightblue.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/lightgreen.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-4">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/altanoghave/insekt.jpg" class="card-img rounded-0" alt="sparegris">
+					<img src="images/colors/grey.jpg" class="card-img rounded-0" alt="sparegris">
 				</a>
 			</div>
 		</div>
 		</div>`
 //Huskelisten
-let huskelisten = ``
+let huskelisten = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li class="sidsteCrumb">BOLIG</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Boligside-->
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/sovevaerelse.jpg" id="sovevaerelse" class="card-img rounded-0" alt="soveværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/stue.jpg" id="stue" class="card-img rounded-0" alt="stue">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/badogtoilet.jpg" id="bad" class="card-img rounded-0" alt="badeværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/koekken.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/altanoghave.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/bolig/entre.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+				</a>
+			</div>
+		</div>
+		</div>
+`
 //Økonomisiden
-let okonomi = ``
+let okonomi = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li class="sidsteCrumb">BOLIG</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Boligside-->
+	<div class="row">
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/overskud_real.jpg" id="sovevaerelse" class="card-img rounded-0" alt="soveværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/faellesoekonomi.jpg" id="stue" class="card-img rounded-0" alt="stue">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/su.jpg" id="bad" class="card-img rounded-0" alt="badeværelse">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/licens.png" id="koekken" class="card-img rounded-0" alt="Køkken">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/studierabat.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/oekonomi/overskud_real.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+				</a>
+			</div>
+		</div>
+		</div>
+`
 //Gode råd siden
 let godeRaad = `
 <!--BREADCRUMBSTIEN-->
@@ -1445,6 +1562,8 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		bad: bad,
 		entre: entre,
 		godeRaad: godeRaad,
+		okonomi: okonomi,
+		huskelisten: huskelisten,
 		
 		
 	//her starter indlæg
@@ -1491,6 +1610,8 @@ document.getElementById('page').addEventListener('click', function (e) {
 		bad: bad,
 		entre: entre,
 		godeRaad: godeRaad,
+		okonomi: okonomi,
+		huskelisten: huskelisten,
 		
 	//her starter indlæg
 		piftStuen: piftStuen,
