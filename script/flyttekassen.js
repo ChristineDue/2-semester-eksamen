@@ -56,13 +56,27 @@ let home = `
 		</div>
 	</div>	
 <!--Content start-->
-
-	<div class="embed-responsive embed-responsive-21by9">
-						  <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Jg-0cIXZBoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-
+	<!--<div class="embed-responsive embed-responsive-21by9">
+			<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/Jg-0cIXZBoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>-->
+	<div class="row align-content-center text-i-row">
+		<div class="col-12">
+			<h3 class="text-center">VELKOMMEN TIL FLYTTEKASSEN!</h3>
+			<p>Her kan du lære hvordan du bedst muligt kan flyve fra reden. Du kan finde gode råd om alt fra indretning, økonomi og håndtering af roomie problemer. Denne hjemmeside samler alt hvad der er værd at vide om din første flytning og forklarer det på en sådan måde at selv den mest uerfarende kan følge med.</p>
+		</div>
+	</div>
+	<div class="row align-content-center text-i-row">
+		<div class="col-12">
+			<h3 class="text-center nyeIndlag">NYESTE INDLÆG</h3>
+		</div>
+	</div>
 	<div class="row align-content-center">
 		<div class="card-columns">
+			<div class="card"> 
+				<a href="#">
+					<img class="card-img-top rounded-0" src="images/sovevaerelse/sengeset.jpg" id="sengeSat" alt="Card image cap">
+				</a>
+		</div>
 			<div class="card"> 
 				<a href="#">
 					<img class="card-img-top rounded-0" src="images/altanoghave/insekt_part2.jpg" id="insekt" alt="Card image cap">
@@ -71,11 +85,6 @@ let home = `
 			<div class="card"> 
 				<a href="#">
 					<img class="card-img-top rounded-0" src="images/altanoghave/eggs.jpg" alt="Card image cap">
-				</a>
-			</div>
-			<div class="card"> 
-				<a href="#">
-					<img class="card-img-top rounded-0" src="images/koekken/madlavning.png" id="simpelMad" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card"> 
@@ -100,7 +109,7 @@ let home = `
 			</div>
 			<div class="card"> 
 				<a href="#">
-					<img class="card-img-top rounded-0" src="images/sovevaerelse/seng.jpg" alt="Card image cap">
+					<img class="card-img-top rounded-0" src="images/koekken/madlavning.png" id="simpelMad" alt="Card image cap">
 				</a>
 			</div>
 		</div>
