@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('page').innerHTML = home
 });
 
+
 //Front page
 let home = `
 <!--Forside-->
@@ -21,8 +22,8 @@ let home = `
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img src="images/slideshow/ikea-tur.jpg" class="d-block w-100" alt="...">
-							<div class="carousel-caption d-none d-md-block">
+							<img src="images/slideshow/ikea-tur.jpg" class="d-block w-100" alt="..." id="ikea">
+							<div class="carousel-caption d-none d-md-block" id="ikea">
 								<h3>Din første IKEA-tur!</h3>
 								<p>Har du svært ved at finde ud af, hvad du skal købe i IKEA, så følg med!</p>
 							</div>
@@ -35,10 +36,10 @@ let home = `
 							</div>
 						</div>
 						<div class="carousel-item">
-							<img src="images/slideshow/huskeliste2.jpg" class="d-block w-100" alt="...">
-							<div class="carousel-caption d-none d-md-block">
-								<h3>5 gode rengøringsråd!</h3>
-								<p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+							<img src="images/slideshow/huskeliste2.jpg" class="d-block w-100" alt="..." id="huskFlyt">
+							<div class="carousel-caption d-none d-md-block" id="huskFlyt">
+								<h3>Huskeliste til din første flytning!</h3>
+								<p>Få et nemt overblik over, hvad du skal have med dig når du flytter!</p>
 							</div>
 						</div>
 					</div>
@@ -74,12 +75,12 @@ let home = `
 			</div>
 			<div class="card"> 
 				<a href="#">
-					<img class="card-img-top rounded-0" src="images/koekken/nudler.png" id="simpelMad" alt="Card image cap">
+					<img class="card-img-top rounded-0" src="images/koekken/madlavning.png" id="simpelMad" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card"> 
 				<a href="#">
-					<img class="card-img-top rounded-0" src="images/goderaad/handbog.png" alt="Card image cap">
+					<img class="card-img-top rounded-0" src="images/goderaad/roomie.jpg" id="roomie" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card text-center"> 
@@ -89,7 +90,7 @@ let home = `
 			</div>
 			<div class="card"> 
 				<a href="#">
-					<img class="card-img-top rounded-0" src="images/goderaad/roomie.jpg" alt="Card image cap">
+					<img class="card-img-top rounded-0" src="images/statestik_card.png" id="infografik" alt="Card image cap">
 				</a>
 			</div>
 			<div class="card"> 
@@ -642,7 +643,7 @@ let huskelisten = `
 	<div class="col-12 tilbageKnap">
 			<ul class="breadcrumb">
 			  <li><a href="#" id="home">HOME</a></li>
-			  <li class="sidsteCrumb">BOLIG</li>
+			  <li class="sidsteCrumb">HUSKELISTEN</li>
 			</ul>
 	</div>
 </div>
@@ -652,42 +653,42 @@ let huskelisten = `
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/sovevaerelse.jpg" id="sovevaerelse" class="card-img rounded-0" alt="soveværelse">
+					<img src="images/huskelisten/ikea.png" id="ikea" class="card-img rounded-0" alt="soveværelse">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/stue.jpg" id="stue" class="card-img rounded-0" alt="stue">
+					<img src="images/huskelisten/lejekontrakt.jpg" id="stue" class="card-img rounded-0" alt="stue">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/badogtoilet.jpg" id="bad" class="card-img rounded-0" alt="badeværelse">
+					<img src="images/huskelisten/flytteliste.jpg" id="bad" class="card-img rounded-0" alt="badeværelse">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/koekken.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
+					<img src="images/colors/lightbrown.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/altanoghave.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
+					<img src="images/colors/red.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/entre.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+					<img src="images/colors/lightpink.jpg" id="entre" class="card-img rounded-0" alt="Entré">
 				</a>
 			</div>
 		</div>
@@ -710,7 +711,7 @@ let okonomi = `
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/oekonomi/overskud_real.jpg" id="sovevaerelse" class="card-img rounded-0" alt="soveværelse">
+					<img src="images/oekonomi/overskud_real.jpg" id="overskud" class="card-img rounded-0" alt="soveværelse">
 				</a>
 			</div>
 		</div>
@@ -745,7 +746,7 @@ let okonomi = `
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/oekonomi/overskud_real.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+					<img src="images/colors/lightgreen.jpg" id="entre" class="card-img rounded-0" alt="Entré">
 				</a>
 			</div>
 		</div>
@@ -789,21 +790,21 @@ let godeRaad = `
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/koekken.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
+					<img src="images/colors/orange.jpg" id="koekken" class="card-img rounded-0" alt="Køkken">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/altanoghave.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
+					<img src="images/colors/lightblue.jpg" id="altanHave" class="card-img rounded-0" alt="Altan og have">
 				</a>
 			</div>
 		</div>
 		<div class="col-12 col-md-6">
 			<div class="card bg-dark">
 				<a href="">
-					<img src="images/bolig/entre.jpg" id="entre" class="card-img rounded-0" alt="Entré">
+					<img src="images/colors/grey.jpg" id="entre" class="card-img rounded-0" alt="Entré">
 				</a>
 			</div>
 		</div>
@@ -826,7 +827,7 @@ let piftStuen = `
 <!--indlæg pift din stue-->
 	<div class="row text-center text-i-row">
 		<div class="col-12">
-			<h1>4 GODE IDEER TIL AT PIFTE DIN STUE OP</h1>
+			<h1>4 GODE IDÉER TIL AT PIFTE DIN STUE OP</h1>
 		</div>
 	</div>
 	<div class="row text-center text-i-row pLarge">
@@ -1548,6 +1549,192 @@ let simpelMad = `
 		</div>
 	</div>
 `
+//Indlæg "åhh nej, roomie problemer!"
+let roomie = `
+<!--INDLÆG “ÅH NEJ ROOMIE PROBLEMER!”-->
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="godeRaad">GODE RÅD</a></li>
+			  <li class="sidsteCrumb">ÅH NEJ! ROOMIE PROBLEMER</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Indlæg ÅH NEJ! ROOMIE PROBLEMER-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>ÅH NEJ! ROOMIE PROBLEMER!</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Dette er guide til, hvordan du kan undgå diverse roomie problemer.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/goderaad/roomie_2.png" alt="Planter">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Vi vil give dig eksempler på god-roomie-pli, hvad er de udskrevne regler og hvordan du bedst kan undgå konflikter. 
+			</p>
+			<h4>DE 3 UDSKREVNE-ROOMIE-REGLER</h4>
+			<p>1. Respekter ALTID en lukket dør. Vi har alle brug for vores egen ro og plads</p>
+			<p>2. Respekter din roomie og roomies ting. Spørg endelig, hvis du vil låne roomies trøje til byturen! Det er altid vejen til et godt roomieskab
+			</p>
+			<p>3. Fortæl din roomie om dine planer. Hvis du holder fest, stopper på studiet eller har du sagt op på arbejdet, er det altid godt at involvere roomie.
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+    <div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>SÅDAN UNDGÅR DU KONFLIKTER</h4>
+			<p>1. Gem dig ikke bag telefonen, fortæl din roomie face to face, hvis du har et problem. Ofte skabes konflikter pga. misforståelser og dette kan ofte ske over besked</p>
+			<p>2. Skab klarer regler for rengøring af fælles områderne og hjælp hinanden med at overhold dem</p>
+			<p>3. Fortæl din roomie om dine planer. Hvis du holder fest, stopper på studiet eller har du sagt op på arbejdet, er det altid godt at involvere roomie.
+			</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+`
+//Indlæg om "få mere økonomisk overskud"
+let overskud = `
+<!--INDLÆG FÅ ØKONOMISK OVERSKUD-->
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="okonomi">ØKONOMI</a></li>
+			  <li class="sidsteCrumb">FÅ ØKONOMISK OVERSKUD</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Indlæg FÅ ØKONOMISK OVERSKUD-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>FÅ ØKONOMISK OVERSKUD</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>En kreativ måde at holde styr på din økonomi.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+
+
+	<div class="row text-center altan">
+		<div class="col-12">
+			<img class="img-fluid" src="images/oekonomi/faa_overskud_i_hverdagen.jpg" alt="Planter">
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>1. Tegn firkanter, så de er lig med/repræsentere det antal dage, der er i måneden. </p>
+			<p>2. Skriv månedens datoer ovenfor dine firkanter, så du kan se hvilke dage der bliver brugt penge. 
+			</p>
+			<p>3. Tag et kig på dit budget og beslut dig for, hvor mange penge du har om måneden. (( Hvis du er i tvivl om, hvordan man lægger et budget kan du læse mere på her: (link). ))
+			</p>
+			<p>4. Få gang i farverne! Opskriv kategorier, som giver mening for dig og brug endeligt farver. Jeg har valgt at bruge farverne grøn, gul, orange og rød, men du kan vælge din helt egen farvepalette! 
+			</p>
+			<p>Du kan nu få overblik af dine køb på en visuel måde. Budget kan give dig muligheden for at hele tiden vide, hvor meget du har tilbage til resterende af måneden og sammenligne dit forbrug med andre måneder. </p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+`
+//indlæg infografik
+let infografik = `
+<!--INDLÆG “Hvornår flytter VI hjemmefra?”-->
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li class="sidsteCrumb">HVORNÅR FLYTTER VI HJEMMEFRA</li>
+			</ul>
+	</div>
+</div>
+<!--content-->
+<!--Indlæg HVORNÅR FLYTTER VI HJEMMEFRA-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>HVORNÅR FLYTTER VI HJEMMEFRA?</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Hvornår flyver vi danskere endeligt fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+<!--på lille ser den sådan her ud-->
+	<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Hvornår flyver vi danskere endeligt fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>TAL FRA 2017</h4>
+		</div>
+	</div>
+	
+	<div class="row text-center altan">
+		<div class="col-12">
+			<img class="img-fluid" src="images/statestik.png" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Statistikken viser, hvornår danske unge i alderen 15-25 år flyttede hjemmefra i 2017 og sammenligner derudover mænd og kvinder. Statistikken tager dog ikke højde for dem, som flytter hjem til mor og far igen. </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>REGIONERNE</h4>
+		</div>
+	</div>
+	
+	<div class="row text-center altan">
+		<div class="col-12">
+			<img class="img-fluid" src="images/statestik_dk.png" alt="Planter">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Cirkeldiagrammerne fortæller om, hvilken forskel der er i religioner, samt hvordan tallene var tilbage i 2010. Som du kan se, har tallene ikke ændret sig meget. </p>
+		</div>
+	</div>
+
+`
+let huskFlyt = ``
+let ikea = ``
+let fotex = ``
+
 //Her sker alt magien, vi kigger på om en knap bliver trykket på
 //Hvis den gør så sker følgende
 document.getElementById('navPage').addEventListener('click', function (e){
@@ -1576,6 +1763,12 @@ document.getElementById('navPage').addEventListener('click', function (e){
 		sengeSat: sengeSat,
 		flyttemand: flyttemand,
 		simpelMad: simpelMad,
+		roomie: roomie,
+		overskud: overskud,
+		infografik: infografik,
+		huskFlyt: huskFlyt,
+		ikea: ikea,
+		fotex: fotex,
     }
 	
 	console.log('i am the navbar')
@@ -1589,7 +1782,9 @@ document.getElementById('navPage').addEventListener('click', function (e){
         if(pages[id] != undefined){
             console.log("id found")
         e.preventDefault()
-        document.getElementById('page').innerHTML = pages[id]
+			
+//https://stackoverflow.com/questions/4210798/how-to-scroll-to-top-of-page-with-javascript-jquery
+        document.getElementById('page').innerHTML = pages[id],window.scrollTo(0, 0);
     }
     }
 	
@@ -1623,6 +1818,12 @@ document.getElementById('page').addEventListener('click', function (e) {
 		sengeSat: sengeSat,
 		flyttemand: flyttemand,
 		simpelMad: simpelMad,
+		roomie: roomie,
+		overskud: overskud,
+		infografik: infografik,
+		huskFlyt: huskFlyt,
+		ikea: ikea,
+		fotex: fotex,
 		
     }
 	console.log('i am the magic')
@@ -1638,24 +1839,21 @@ document.getElementById('page').addEventListener('click', function (e) {
         if(pages[id] != undefined){
             console.log("id found")
         e.preventDefault()
-        document.getElementById('page').innerHTML = pages[id]
+        document.getElementById('page').innerHTML = pages[id], window.scrollTo(0, 0);
     }
     }
 })
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-
-//https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+//// When the user scrolls down 20px from the top of the document, show the button
+//window.onscroll = function() {scrollFunction()};
+//
+//function scrollFunction() {
+//  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//    document.getElementById("myBtn").style.display = "block";
+//  } else {
+//    document.getElementById("myBtn").style.display = "none";
+//  }
+//}
 
 // When the user clicks on the button, scroll to the top of the document
 
@@ -1663,5 +1861,4 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
-
 
