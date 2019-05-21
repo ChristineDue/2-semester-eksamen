@@ -123,7 +123,36 @@ let inspiration = `
 
 `
 //praktisk
-let praktisk = ``
+let praktisk = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li class="sidsteCrumb">DET PRAKTISKE</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<!--Det praktiske-siden-->
+<div class="row">
+  <div class="col-12 col-md-6">
+    <div class="card bg-dark"> <a href=""> <img src="images/rengoring1.png" id="rengoring" class="card-img rounded-0" alt="Rengøring"> </a> </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="card bg-dark"> <a href=""> <img src="images/bestil_flyt.jpg" id="flyttemand" class="card-img rounded-0" alt="Flyttemand"> </a> </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="card bg-dark"> <a href=""> <img src="images/gordetselv.jpg" id="gorDetSelv" class="card-img rounded-0" alt="Gør det selv"> </a> </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="card bg-dark"> <a href=""> <img src="images/flytteliste.jpg" id="flyttehuskeliste" class="card-img rounded-0" alt="Flyttehuskeliste"> </a> </div>
+  </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 //Økonomisiden
 let okonomi = `
 <!--BREADCRUMBSTIEN-->
@@ -317,9 +346,123 @@ let commingSoonOko = `
 
 									//FORSIDE-SIDEN
 //Indlæg om roomie
-let roomie = ``
+let roomie = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li class="sidsteCrumb">BLIV GODE ROOMIES</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>BLIV GODE ROOMIES!</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Dette er guide til, hvordan du kan undgå diverse roomie problemer.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/roomie_2.png" alt="Roomie"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Vi vil give dig eksempler på god-roomie-pli, hvad er de udskrevne regler og hvordan du bedst kan undgå konflikter. </p>
+    <h4>DE 3 UDSKREVNE-ROOMIE-REGLER</h4>
+    <p>1. Respekter ALTID en lukket dør. Vi har alle brug for vores egen ro og plads</p>
+    <p>2. Respekter din roomie og roomies ting. Spørg endelig, hvis du vil låne roomies trøje til byturen! Det er altid vejen til et godt roomieskab </p>
+    <p>3. Fortæl din roomie om dine planer. Hvis du holder fest, stopper på studiet eller har du sagt op på arbejdet, er det altid godt at involvere roomie. </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>SÅDAN UNDGÅR DU KONFLIKTER</h4>
+    <p>1. Gem dig ikke bag telefonen, fortæl din roomie face to face, hvis du har et problem. Ofte skabes konflikter pga. misforståelser og dette kan ofte ske over besked</p>
+    <p>2. Skab klarer regler for rengøring af fælles områderne og hjælp hinanden med at overhold dem</p>
+    <p>3. Fortæl din roomie om dine planer. Hvis du holder fest, stopper på studiet eller har du sagt op på arbejdet, er det altid godt at involvere roomie. </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 //Indlæg om infografik
-let infografik = ``
+let infografik = `
+<!--INDLÆG “Hvornår flytter VI hjemmefra?”-->
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li class="sidsteCrumb">HVORNÅR FLYTTER VI HJEMMEFRA</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<!--Indlæg HVORNÅR FLYTTER VI HJEMMEFRA-->
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>HVORNÅR FLYTTER VI HJEMMEFRA?</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Hvornår flyver vi danskere endeligt fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Hvornår flyver vi danskere endeligt fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>TAL FRA 2017</h4>
+  </div>
+</div>
+<div class="row text-center altan">
+  <div class="col-12"> <img class="img-fluid" src="images/statestik.png" alt="Statistik"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Statistikken viser, hvornår danske unge i alderen 15-25 år flyttede hjemmefra i 2017 og sammenligner derudover mænd og kvinder. Statistikken tager dog ikke højde for dem, som flytter hjem til mor og far igen. </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>REGIONERNE</h4>
+  </div>
+</div>
+<div class="row text-center altan">
+  <div class="col-12"> <img class="img-fluid" src="images/statestik_dk.png" alt="Statistik Danmark"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Cirkeldiagrammerne fortæller om, hvilken forskel der er i religioner, samt hvordan tallene var tilbage i 2010. Som du kan se, har tallene ikke ændret sig meget. </p>
+  </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 
 									//ØKONOMI
 
@@ -1071,9 +1214,103 @@ let budgetMad = `
 
 
 //Rengøring
-let rengoring = ``
+let rengoring = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li class="sidsteCrumb">RENGØRING</li>
+    </ul>
+  </div>
+</div>
+<!--content-->
+<div class="row">
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/opvask.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="opvaskebillede"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/plet.png" id="plet" class="card-img rounded-0" alt="Få den plet væk"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/indstillinger.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="Tørretumbler"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/badeforhang.jpg" id="badeforhang" class="card-img rounded-0" alt="Badeforhæng"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/tojvask.jpg" id="commingSoonPrakRen" class="card-img rounded-0" alt="Tøjvask"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/handklaeder_1.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="Håndklæder"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/five.png" id="femRen" class="card-img rounded-0" alt="5 gode rengøringsråd"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/" id="commingSoonPrakRen" class="card-img rounded-0" alt="Gulvvask"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/" id="commingSoonPrakRen" class="card-img rounded-0" alt="Rens dit afløb"> </a> </div>
+  </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 //Indlæg om få den plet væk
-let plet = ``
+let plet = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li><a href="#" id="rengoring">RENGØRING</a></li>
+      <li class="sidsteCrumb">FÅ DEN PLET VÆK</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>FÅ DEN PLET VÆK</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Her får du det bedste trick til at fjerne alle slags pletter på tøjet!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/real_plet.jpg" alt="Plettet trøje"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Du skal bruge: en plastiskpose og noget opvaskemiddel. Andet behøver du faktisk ikke!</p>
+    <p>1. Tag dit tøj ned i plastiskposen</p>
+    <p>2. Hæld en god mængde opvaskemiddel på pletten</p>
+    <p>3. Fold dit tøj sammen, så pletten og opvaskemidlet er pakket godt ind</p>
+    <p>4. Luk posen og vent 24 timer</p>
+    <p>5. Vask dit tøj i vaskemaskinen</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Tricket virker hver gang, det har endnu ikke slået fejl! Du kan fjerne både motorolie, solcreme, syltetøj og mange andre ting på denne måde</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+`
 //Indlæg om badeforhæng
 let badeforhang = ``
 //Indlæg om 5 tricks til rengøring
@@ -1084,7 +1321,61 @@ let gorDetSelv = ``
 
 
 //Indlæg om flyttemand
-let flyttemand = ``
+let flyttemand = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li class="sidsteCrumb">RÅD TIL BESTILLING AF FLYTTEMAND</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<!--Indlæg "skrald i køkkenhaven"-->
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>RÅD TIL BESTILLING AF FLYTTEMAND!</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Dette er en guide, som sikre dig mod uønskede problemer med både bestillingen af flyttemænd eller på selve din flyttedag. Om flytningen ordnes af et flyttefirma, venner eller dine forældre er denne guide altid hensigtsmæssig at have i baghovedet!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Dette er en guide, som sikre dig mod uønskede problemer med både bestillingen af flyttemænd eller på selve din flyttedag. Om flytningen ordnes af et flyttefirma, venner eller dine forældre er denne guide altid hensigtsmæssig at have i baghovedet!</p>
+  </div>
+</div>
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/flyttemand.jpg" alt="Flyttekasserstabel"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>1. Lav en liste over alle dine møbler/genstande, som du skal have flyttet. 
+      Noter eventuelt om du har genstand, flyttemanden skal være ekstra varsom med.
+      Listen vil give dig et bedre overblik, når du taler med din flyttemand i telefonen. </p>
+    <p>2. Fortæl din flyttemand om du har brug for hjælp med at afmonterer vaskemaskinen eller lamper. Hvis du har problemer med at gøre andre ting selv, som eksempelvis flytterengøring eller at tage dine gardiner ned, kan du altid spørger din flyttemand</p>
+    <p>3. Fortæl din flyttemand, hvor du bor og hvilke muligheder de har for parkering?  
+      Skal du flytte fra 4. sal eller fra dine forældres 1-plans parcelhus. Fortæl også
+      flyttemanden, hvor du skal flytte hen </p>
+    <p>4. Det er altid en god ide at spørge flyttemanden indtil til forsikring, i tilfælde af, at der
+      skulle ske noget. Flyttemanden sørger naturligvis for at passe på dine ting, men for
+      en sikkerheds skyld </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 //Indlæg om flyttehuskeliste
 let flyttehuskeliste = ``
 
