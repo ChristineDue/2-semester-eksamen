@@ -1,147 +1,78 @@
-<!doctype html>
-<html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!--Stylesheet-->
-<link rel="stylesheet" href="../styles/style.css">
-<!--Fonte-->
-<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<title>Flyttekassen</title>
-</head>
-<body>
-<div class="container" id="elementId">
-<!--Logo start-->
-	<div class="row text-center">
-		<div class="col-12">
-			<a href=""><img class="logo" src="../images/logo.png" alt="logo"></a>		
-		</div>
-	</div>
-<!--Navigation-->
-	<div class="row align-content-end">
-	<div class="col-12 col-md-8 col-lg-8">
-		<nav class="navbar navbar-expand-lg navbar-light">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-	  <!--ml-auto sender den til højre-->
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">HUSKELISTEN</a>
-  		</li>
-	  <li class="nav-item">
-		<a class="nav-link" href="raad.html">RÅD</a>
-	  </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/index.html">ØKONOMI</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BOLIG</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          		<a class="dropdown-item" href="#">STUE</a>
-				<a class="dropdown-item" href="#">SOVEVÆRELSE</a>
-				<a class="dropdown-item" href="#">KØKKEN</a>
-				<a class="dropdown-item" href="#">BADEVÆRELSE</a>
-				<a class="dropdown-item" href="#">ALTAN/HAVE</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-	</div>
-	<div class="col-md-4 col-lg-4">
-		<nav class="navbar">
-			<form class="form-inline md-form form-sm mt-0">
-			  <i class="fas fa-search" aria-hidden="true"></i>
-			  <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
-			</form>
-		</nav>
-	</div>
-	</div>
-<!--Content start-->
-	<div class="row">
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/altanoghave/altan.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/altanoghave/eggs.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/altanoghave/insekt.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card bg-dark">
-				<a href="">
-					<img src="../images/cards/1x/placeholder.png" class="card-img rounded-0" alt="sparegris">
-				</a>
-			</div>
-		</div>
-		</div>
-	
-	<!--<button id="klikSove">Klik på mig</button>
-	<div class="col-12" id="sove">
-		
-	</div>-->
-<!--indlæg om "simpel madlavning"--> 
-	<div class="row text-center text-i-row">
-		<div class="col-2"></div>
-		<div class="col-8">
-			<h1>SIMPEL MADLAVNING</h1>
-				<p>Er du lige flyttet hjemmefra og har været vant til, at det var mor der stod for aftensmaden? Så bare rolig vi lære dig her hvordan du kan lave den simpleste og lækreste mad helt selv.</p>
-		</div>
-		<div class="col-2"></div>
-	</div>
-	<div class="row text-center">
-		<div class="col-12 col-md-6">
-			<img src="../images/koekken/ris.png" alt="">
-		</div>
-		<div class="col-12 col-md-6">
-			<img src="../images/koekken/kodsovs.png" alt="">
-		</div>
+
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HOME</a></li>
+			  <li><a href="#" id="bolig">BOLIG</a></li>
+			  <li class="sidsteCrumb">KØKKEN</li>
+			</ul>
 	</div>
 </div>
-
-	
-	
-	
-	
-	
-	
-<!-- Optional JavaScript -->
-<script src="../script/flyttekassen.js"></script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
-</html>
+<!--content-->
+<!--Køkkenside-->
+<div class="row">
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/koekken/madlavning.png" id="simpelMad" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/koekken/opvask.png" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/koekken/ukrudt.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/green.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/red.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/lightbrown.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/lightblue.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/orange.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		<div class="col-12 col-md-4">
+			<div class="card bg-dark">
+				<a href="">
+					<img src="images/colors/lightpink.jpg" class="card-img rounded-0" alt="sparegris">
+				</a>
+			</div>
+		</div>
+		</div>
