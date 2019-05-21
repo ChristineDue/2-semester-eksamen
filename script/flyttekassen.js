@@ -8,7 +8,89 @@ document.addEventListener("DOMContentLoaded", function() {
 									//NAVIGATION
 
 //Front page
-let home = ``
+let home = `
+<!--Forside-->
+<!--Slideshow-->
+<!--SLIDESHOW LARGE-->
+
+<div class="row slideshowLarge">
+  <div class="col-12">
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active"> <img src="images/slideshow/ikea-tur.jpg" class="d-block w-100" alt="ikea slidehow" id="ikea">
+            <div class="carousel-caption d-none d-md-block" id="ikea">
+              <h3>Din første IKEA-tur!</h3>
+              <p>Har du svært ved at finde ud af, hvad du skal købe i IKEA, så følg med!</p>
+            </div>
+          </div>
+          <div class="carousel-item"> <img src="images/slideshow/flyttekasse_illustration.png" id="flyttemand" class="d-block w-100" alt="Flyttekasser i stabel">
+            <div class="carousel-caption d-none d-md-block" id="flyttemand">
+              <h3>Er du klar til din flyttemand?</h3>
+              <p>Er du begravet i flytterod. Få gode tips til hvordan du bliver klar til flyttemanden!</p>
+            </div>
+          </div>
+          <div class="carousel-item"> <img src="images/slideshow/huskeliste2.jpg" class="d-block w-100" alt="Huskeliste over flytning" id="flyttehuskeliste">
+            <div class="carousel-caption d-none d-md-block" id="flyttehuskeliste">
+              <h3>Huskeliste til din første flytning!</h3>
+              <p>Få et nemt overblik over, hvad du skal have med dig når du flytter!</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+    </div>
+  </div>
+</div>
+<!--Content start--> 
+<div class="row align-content-center text-i-row">
+  <div class="col-12">
+    <h3 class="text-center">VELKOMMEN TIL FLYTTEKASSEN!</h3>
+    <p>Her kan du lære hvordan du bedst muligt kan flyve fra reden. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om din første flytning og forklarer det på en sådan måde, at selv den mest uerfarende kan følge med.</p>
+  </div>
+</div>
+<div class="row align-content-center text-i-row">
+  <div class="col-12">
+    <h3 class="text-center nyeIndlag">NYESTE INDLÆG</h3>
+  </div>
+</div>
+<div class="row align-content-center">
+  <div class="card-columns">
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/sengeset.png" id="sengeSat" alt="Sengesæt"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/hotel.jpg" id="insekt" alt="Insekthotel"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/eggs_kant.jpg" id="skrald" alt="Æggebakke med blomster"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/roomies.png" id="roomie" alt="Gode roomie råd"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img rounded-0" src="images/budget.jpg" id="ligBudget" alt="budget"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img rounded-0" src="images/badlang.jpg" id="makeoverBad" alt="Makeover af badeværelse"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/statestik_card.png" id="infografik" alt="Inforgrafik over flytning"> </a> </div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/licens.png" id="licens" alt="licens"> </a> 
+	</div>
+    <div class="card"> <a href="#"> 
+		<img class="card-img-top rounded-0" src="images/madbudget.png" id="budgetMad" alt="Madbudget"> </a> 
+	</div>
+  </div>
+</div>
+
+
+`
 // inspiration
 let inspiration = ``
 //praktisk
