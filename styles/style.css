@@ -11,16 +11,17 @@
 	display: none; /* Hidden by default */
 	position: fixed; /* Fixed/sticky position */
 	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
+	right: 70px; /* Place the button 30px from the right */
 	z-index: 99; /* Make sure it does not overlap */
 	border: none; /* Remove borders */
 	outline: none; /* Remove outline */
-	background-color: red; /* Set a background color */
+	background-color: #5a2c36; /* Set a background color */
 	color: white; /* Text color */
 	cursor: pointer; /* Add a mouse pointer on hover */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-	font-size: 18px; /* Increase font size */
+	padding-bottom: 2%;
+	font-size: 1.7rem; /* Increase font size */
+	height: 50px;
+	width: 50px;
 }
 
 #myBtn:hover {
@@ -58,6 +59,9 @@ ul.breadcrumb li a:hover {
 	font-weight: bold;
 }
 
+.kommerSnart{
+	margin-bottom: 30%;
+}
 /*Styling af logo*/
 .logo{
 	width: 18%;
