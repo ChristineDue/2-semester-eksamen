@@ -511,7 +511,60 @@ let styrBudget = `
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 `
 //Indlæg om lægger budget
-let ligBudget = ``
+let ligBudget = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="okonomi">ØKONOMI</a></li>
+      <li class="sidsteCrumb">SÅDAN LÆGGER DU ET BUDGET</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>SÅDAN LÆGGER DU ET BUDGET</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Når man flytte hjemmefra kan der hurtigt komme uforudsete udgifter. Følg med her og lær at lægge et budget, så du er klar til de uforudsete udgifter</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Når man flytte hjemmefra kan der hurtigt komme uforudsete udgifter. Følg med her og lær at lægge et budget, så du er klar til de uforudsete udgifter</p>
+  </div>
+</div>
+
+<div class="row text-center altan">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/budget-lig.jpg" alt="Lig budget"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>1. sæt dig ned en dag hvor du har god tid og find ud af hvad du ca. tjener om måneden, hvad du får i SU, hvad du betaler til din forsikringer, transport, mad, netflix og andet. Skriv det ind i excel styr på det</p>
+    <p>2. har du en roomie kan I med fordel gøre det sammen, det er lettere hvis man får hjælp</p>
+    <p>3. Dine udgifter skal helst ikke være større end din indtjening. Sørg for at skære ned på luksusting som netflix, hvis dit forbrug er for højt</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Du kan med fordel downloade dette <a href=”#”>budget skema</a> for at få hjælp til planlægningen. </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+`
 
 									//ALTAN OG HAVE
 
@@ -1115,6 +1168,15 @@ let indkob = `
   <div class="col-12 col-md-4">
     <div class="card bg-dark"> <a href=""> <img src="images/studierabat.png" id="commingSoonInspiIndkob" class="card-img rounded-0" alt="Indkøbsliste"> </a> </div>
   </div>
+	<div class="col-12 col-md-4">
+    	<div class="card bg-dark"> <a href=""> <img src="images/tilbudsaviser.jpg" id="commingSoonInspiIndkob" class="card-img rounded-0" alt="Indkøbsliste"> </a> </div>
+  </div>
+	<div class="col-12 col-md-4">
+    	<div class="card bg-dark"> <a href=""> <img src="images/loppemarked.jpg" id="commingSoonInspiIndkob" class="card-img rounded-0" alt="Indkøbsliste"> </a> </div>
+  </div>
+	<div class="col-12 col-md-4">
+    	<div class="card bg-dark"> <a href=""> <img src="images/gratis-facebook.jpg" id="commingSoonInspiIndkob" class="card-img rounded-0" alt="Indkøbsliste"> </a> </div>
+  </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 
@@ -1250,10 +1312,10 @@ let rengoring = `
     <div class="card bg-dark"> <a href=""> <img src="images/five.png" id="femRen" class="card-img rounded-0" alt="5 gode rengøringsråd"> </a> </div>
   </div>
   <div class="col-12 col-md-4">
-    <div class="card bg-dark"> <a href=""> <img src="images/" id="commingSoonPrakRen" class="card-img rounded-0" alt="Gulvvask"> </a> </div>
+    <div class="card bg-dark"> <a href=""> <img src="images/gulvvask.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="Gulvvask"> </a> </div>
   </div>
   <div class="col-12 col-md-4">
-    <div class="card bg-dark"> <a href=""> <img src="images/" id="commingSoonPrakRen" class="card-img rounded-0" alt="Rens dit afløb"> </a> </div>
+    <div class="card bg-dark"> <a href=""> <img src="images/aflob.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="Rens dit afløb"> </a> </div>
   </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
@@ -1312,9 +1374,135 @@ let plet = `
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 `
 //Indlæg om badeforhæng
-let badeforhang = ``
+let badeforhang = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li><a href="#" id="rengoring">RENGØRING</a></li>
+      <li class="sidsteCrumb">RENS DIT BADEFORHÆNG</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>RENS DIT BADEFORHÆNG</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Der er flere bakterier end man lige går og aner i et badeforhæng. Da badeforhæng ofte er billige, kan man let fristes til at købe et nyt i stedet for at vaske det gamle. Men brug disse 3 råd, og du vil aldrig få lyst til at købe et nyt</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Der er flere bakterier end man lige går og aner i et badeforhæng. Da badeforhæng ofte er billige, kan man let fristes til at købe et nyt i stedet for at vaske det gamle. Men brug disse 3 råd, og du vil aldrig få lyst til at købe et nyt</p>
+  </div>
+</div>
+
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/badeforhang.jpg" alt="Badeforhæng"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>1. Hvis du ofte vasker dit badeforhæg kan det blot vaskes ved 40 grader. Det er vigtigt at du derefter hænger forhænget op bagefter, da det kommer til at lugte grimt hvis ikke det bliver tørt</p>
+    <p>2. Hvis dit badeforhæng har gule mærker efter kalk, kan du med fordel lægge det i blød i en balje med 1dl rodalon og 1 liter vand. Rodalon fjerne bakterier og afbleger samtidig. Husk; pas på dit tøj</p>
+    <p>3. Skurecreme er den sidste og mest fantastiske løsning på et beskidt forhæng. Smør skurecreme på dit badeforhæng og brug en svamp til at skrubbe pletter og snavs væk. Vupti, et helt rent badeforhæng!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Husk at du hjælper miljøet hvis du lade være med at købe nye forhæng når dit gamle er beskidt!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+`
 //Indlæg om 5 tricks til rengøring
-let femRen = ``
+let femRen = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li><a href="#" id="rengoring">RENGØRING</a></li>
+      <li class="sidsteCrumb">5 GODE RENGØRINGSRÅD</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>5 GODE RENGØRINGSRÅD</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Rengøring er desværre noget man bliver nødt til, selvom det er surt arbejde. Her kommer nogle gode fif til en nemmere rengøring! </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/cleaning.jpg" alt="Rengøringsbillede"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4 class="startH4">1. HUSK AT SKIFT TOILETBØRSTEN REGELMÆSSIGT</h4>
+    <p>På toiletbørsten finder du alverdens bakterier. Skift din toiletbørste 1 gang om måneden så du undgår smitte.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>2. AFKALK DIN VASKEMASKINE</h4>
+    <p>Put citronsyre i din vaskemaskine med jævne mellemrum. Du kan spare op til 20% af dit samlet energiforbrug på vaskemaskinen ved at holde den afkalket</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>3. LUK TOILETBRÆFTTET NÅR DU SKYLDER UD</h4>
+    <p>Når toilettet skyller ud, spredes der massevis af bakterier. Når du skyller ud er det en god idé at lukke brættet så bakterierne bliver nede i toilettet</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>4. AFKALK DIT BRUSEHOVED</h4>
+    <p>Hvis du putter ⅓ bagepulver og 1dl eddike i en pose og hænger den over dit brusehovedet opløser du naturligt kalken på dit brusehovede. Lad posen hænge i 10 minutter og skyld brusehovedet med vand inden du næstegang går i bad. </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <h4>5. RENGØR DIN OVN</h4>
+    <p>Smør et tykt lag brun sæbe på emalje-overfladerne og sæt ovnen på 100 grader. Sluk din ovn så snart sæben begynder og boble og lad sæben virke i 20 minutter. Rens ovnen med en klud efter den er kølet ned.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 
 //Gør det selv siden
 let gorDetSelv = ``
