@@ -147,6 +147,14 @@ let praktisk = `
 </div>
 <!--content--> 
 <!--Det praktiske-siden-->
+<div class="row text-i-row text-intro">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Denne side samler alt det dine forældre plejede at hjælpe dig med. Fik du ikke lært at rense afløbet, da du boede hjemme? Intet problem. Under vores side rengøring kan du finde tips og tricks, så dit nye hjem kan blive spotless.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
 <div class="row">
   <div class="col-12 col-md-6">
     <div class="card bg-dark"> <a href=""> <img src="images/rengoring1.png" id="rengoring" class="card-img rounded-0" alt="Rengøring"> </a> </div>
@@ -177,6 +185,14 @@ let okonomi = `
 </div>
 <!--content--> 
 <!--Økonomisiden-->
+<div class="row text-i-row text-intro">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>På denne side kan du lære om alt det du har brug for at vide om økonomi, når du flytter hjemmefra. Du kan få tips og tricks til hvordan du kan holde styr på din økonomi, hvad du skal sørge for at få i orden og gode råd.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
 <div class="row">
   <div class="col-12 col-md-6">
     <div class="card bg-dark"> <a href=""> <img src="images/hold_budget.jpg" id="styrBudget" class="card-img rounded-0" alt="Hold styr på dit budget"> </a> </div>
@@ -1354,7 +1370,7 @@ let rengoring = `
     <div class="card bg-dark"> <a href=""> <img src="images/indstillinger.png" id="commingSoonPrakRen" class="card-img rounded-0" alt="Tørretumbler"> </a> </div>
   </div>
   <div class="col-12 col-md-4">
-    <div class="card bg-dark"> <a href=""> <img src="images/badeforhang.jpg" id="badeforhang" class="card-img rounded-0" alt="Badeforhæng"> </a> </div>
+    <div class="card bg-dark"> <a href=""> <img src="images/rensbad.jpg" id="badeforhang" class="card-img rounded-0" alt="Badeforhæng"> </a> </div>
   </div>
   <div class="col-12 col-md-4">
     <div class="card bg-dark"> <a href=""> <img src="images/tojvask.jpg" id="commingSoonPrakRen" class="card-img rounded-0" alt="Tøjvask"> </a> </div>

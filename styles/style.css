@@ -198,6 +198,7 @@ h4{
 	margin-top: 5%;
 }
 
+/*IFRAME STYLE med inspiration fra https://www.w3schools.com/html/html_youtube.asp*/
 
 .video iframe {
 	width: 700px;
@@ -224,18 +225,12 @@ h4{
 	width: 60%;
 }
 
-.card iframe{
-	width: auto;
-	height: 315px;
-}
-
-
-
 
 											/*footer styling*/
 
 #footer{
 	background-color: #ddd;
+	margin-top: 5%;
 }
 .footerRow{
 	margin-top: 2%;
