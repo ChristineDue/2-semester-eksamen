@@ -89,9 +89,7 @@ let home = `
 		<img class="card-img-top rounded-0" src="images/madbudget.png" id="budgetMad" alt="Madbudget"> </a> 
 	</div>
   </div>
-</div>
-<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
-
+  	
 `
 // inspiration
 let inspiration = `
@@ -107,6 +105,18 @@ let inspiration = `
 </div>
 <!--content--> 
 <!--iNSPIRATIONSSIDE-->
+
+<div class="col-12">
+		<iframe src="//cdn.bannersnack.com/banners/bt3er8fi1/embed/index.html?userId=39096226&t=1558522136" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" allow="autoplay" allowfullscreen="true"></iframe>
+  	
+  </div>
+<div class="row text-center">
+  <div class="col-2"></div>
+  <div class="col-8 h1-intro">
+    <h1>INSPIRATION</h1>
+  </div>
+  <div class="col-2"></div>
+</div>
 <div class="row text-i-row text-intro">
   <div class="col-2"></div>
   <div class="col-8">
@@ -147,6 +157,13 @@ let praktisk = `
 </div>
 <!--content--> 
 <!--Det praktiske-siden-->
+<div class="row text-center">
+  <div class="col-2"></div>
+  <div class="col-8 h1-intro">
+    <h1>DET PRAKTISKE</h1>
+  </div>
+  <div class="col-2"></div>
+</div>
 <div class="row text-i-row text-intro">
   <div class="col-2"></div>
   <div class="col-8">
@@ -169,6 +186,10 @@ let praktisk = `
     <div class="card bg-dark"> <a href=""> <img src="images/flytteliste.jpg" id="flyttehuskeliste" class="card-img rounded-0" alt="Flyttehuskeliste"> </a> </div>
   </div>
 </div>
+<div class="col-12">
+		<iframe src="//cdn.bannersnack.com/banners/builg3i97/embed/index.html?userId=39096226&t=1558522195" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" allow="autoplay" allowfullscreen="true"></iframe>
+  	
+  </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 
 `
@@ -185,6 +206,13 @@ let okonomi = `
 </div>
 <!--content--> 
 <!--Økonomisiden-->
+<div class="row text-center">
+  <div class="col-2"></div>
+  <div class="col-8 h1-intro">
+    <h1>ØKONOMI</h1>
+  </div>
+  <div class="col-2"></div>
+</div>
 <div class="row text-i-row text-intro">
   <div class="col-2"></div>
   <div class="col-8">
