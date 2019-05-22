@@ -47,11 +47,13 @@ let home = `
   </div>
 </div>
 <!--Content start--> 
-<div class="row align-content-center text-i-row">
-  <div class="col-12">
+<div class="row align-content-center text-i-row text-intro">
+	<div class="col-2"></div>
+  <div class="col-8">
     <h3 class="text-center">VELKOMMEN TIL FLYTTEKASSEN!</h3>
-    <p>Her kan du lære hvordan du bedst muligt kan flyve fra reden. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om din første flytning og forklarer det på en sådan måde, at selv den mest uerfarende kan følge med.</p>
+    <p>Her kan du lære hvordan du bedst muligt kan flyve fra reden. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om din første flytning og forklarer det på en måde, så selv den mest uerfarende kan følge med.</p>
   </div>
+	<div class="col-2"></div>
 </div>
 <div class="row align-content-center text-i-row">
   <div class="col-12">
@@ -105,6 +107,15 @@ let inspiration = `
 </div>
 <!--content--> 
 <!--iNSPIRATIONSSIDE-->
+<div class="row text-i-row text-intro">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+
 <div class="row">
   <div class="col-12 col-md-6">
     <div class="card bg-dark"> <a href=""> <img src="images/altanoghave.png" id="altanHave" class="card-img rounded-0" alt="altan og have"> </a> </div>
@@ -1184,7 +1195,50 @@ let indkob = `
 //Indlæg om ikea
 let ikea = ``
 //Indlæg om føtex
-let fotex = ``
+let fotex = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="inspiration">INSPIRATION</a></li>
+      <li><a href="#" id="indkob">INDKØB</a></li>
+      <li class="sidsteCrumb">DIN FØRSTE INDKØBSTUR</li>
+    </ul>
+  </div>
+</div>
+<!--content-->
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>DIN FØRSTE INDKØBSTUR</h1>
+  </div>
+</div>
+<div class="row text-i-row">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Hvad har man egentlig brug for på sin første indkøbstur i supermarkedet? Vi har lavet en indkøbsliste til dig, der ikke er helt sikker på hvad man egentlig skal sørge for selv, når man er flyttet hjemmefra. Du kan downloade indkøbslisten ned, printe den ud og tilføje ting til den selv</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row text-center planter">
+  <div class="col-12"><img class="img-fluid" src="images/indlagsbilleder/indkob1.png" alt="Indkøbsliste"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Du kan downloade indkøbslisten <a href="docs/indkobsliste.pdf" target="_blank">her</a>.<br>Se også med i vores video, hvor vi er på vores første indkøbstur og giver gode råd med på vejen</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+	<div class="col-12 video">
+  		<iframe src="https://www.youtube.com/embed/jnu584Qm7yo" allowfullscreen></iframe>
+	</div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 
 									//OPSKRIFTSIDEN
 
