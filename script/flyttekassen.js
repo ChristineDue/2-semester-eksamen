@@ -1419,7 +1419,7 @@ let fotex = `
     <h1>DIN FØRSTE INDKØBSTUR</h1>
   </div>
 </div>
-<div class="row text-i-row">
+<div class="row text-center text-i-row">
   <div class="col-2"></div>
   <div class="col-8">
     <p>Hvad har man egentlig brug for på sin første indkøbstur i supermarkedet? Vi har lavet en indkøbsliste til dig, der ikke er helt sikker på hvad man egentlig skal sørge for selv, når man er flyttet hjemmefra. Du kan downloade indkøbslisten ned, printe den ud og tilføje ting til den selv</p>
