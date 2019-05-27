@@ -102,7 +102,7 @@ let home = `
 		<img class="card-img-top rounded-0" src="images/madbudget.png" id="budgetMad" alt="Madbudget"> </a> 
 	</div>
   </div>
-  <button onclick="topFunction()" id="myBtn" title="Go to top"><p>&#8593;</p></button>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 `
 // inspiration
 let inspiration = `
