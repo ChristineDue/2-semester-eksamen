@@ -25,7 +25,7 @@
 }
 
 #myBtn:hover {
-  	background-color: #555; /* Add a dark-grey background on hover */
+  	background-color: #8F9190; /* Add a dark-grey background on hover */
 }
 
 
@@ -61,6 +61,15 @@ ul.breadcrumb li a:hover {
 
 .kommerSnart{
 	margin-bottom: 30%;
+}
+
+a{
+	color: #c0622b;
+}
+
+a:hover{
+	color: #8F9190;
+	text-decoration: none;
 }
 
 /*Styling af logo*/

@@ -89,7 +89,7 @@ let home = `
 		<img class="card-img-top rounded-0" src="images/madbudget.png" id="budgetMad" alt="Madbudget"> </a> 
 	</div>
   </div>
-  	
+  <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
 `
 // inspiration
 let inspiration = `
@@ -748,12 +748,19 @@ let insekt = `
   </div>
 </div>
 <!--content-->
-<div class="row text-center text-i-row pLarge">
+<div class="row text-center text-i-row">
   <div class="col-12">
     <h1>INSEKTHOTEL</h1>
-    <p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>
   </div>
 </div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
 
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
