@@ -342,4 +342,9 @@ h4{
 .badMakeover{
 	font-size: 0.7rem;		
 }
+	
+iframe{
+	width: 50%;
+	height: auto;
+}
 }
