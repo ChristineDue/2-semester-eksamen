@@ -1,6 +1,6 @@
 // JavaScript Document
 
-//Når siden loader bliver siden sat til hjemme siden
+//Når siden loader registreres home som forside 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('page').innerHTML = home
 });
@@ -255,7 +255,7 @@ let okonomi = `
     <div class="card bg-dark"> <a href=""> <img src="images/faellesoekonomi.jpg" id="commingSoonOko" class="card-img rounded-0" alt="Overbliv over fællesøkonomi"> </a> </div>
   </div>
   <div class="col-12 col-md-6">
-    <div class="card bg-dark"> <a href=""><img src="images/su.png" id="commingSoonOko" class="card-img rounded-0" alt="SU"></a> </div>
+    <div class="card bg-dark"> <a href=""> <img src="images/su.png" id="commingSoonOko" class="card-img rounded-0" alt="SU"></a> </div>
   </div>
   <div class="col-12 col-md-6">
     <div class="card bg-dark"> <a href=""> <img src="images/licens.png" id="commingSoonOko" class="card-img rounded-0" alt="Licens"> </a> </div>
@@ -1913,8 +1913,7 @@ let flyttehuskeliste = `
 `
 
 
-//Her sker alt magien, vi kigger på om en knap bliver trykket på
-//Hvis den gør så sker følgende
+//Når eventlistneren registrere et klik inde i div'en "navPage" kaldes funktionen. Dette er vores navigation
 document.getElementById('navPage').addEventListener('click', function (e){
 	
 	let pages = {
@@ -1922,54 +1921,19 @@ document.getElementById('navPage').addEventListener('click', function (e){
         home: home,
 		praktisk: praktisk,
 		okonomi: okonomi,
-		commingSoonInspiHave: commingSoonInspiHave,
-		commingSoonInspiIndret: commingSoonInspiIndret,
-		commingSoonInspiIndkob: commingSoonInspiIndkob,
-		commingSoonInspiOpskrift: commingSoonInspiOpskrift,
-		commingSoonOko: commingSoonOko,
-		commingSoonPrakRen: commingSoonPrakRen,
-		commingSoonPrakGorSelv: commingSoonPrakGorSelv,
-		
-	//her starter indlæg
-		styrBudget: styrBudget,
-		ligBudget: ligBudget,
-		altanHave: altanHave,
-		indretning: indretning,
-		piftStuen: piftStuen,
-		makeoverBad: makeoverBad,
-		insekt: insekt,
-		etVarelse: etVarelse,
-		indkob: indkob,
-		opskrift: opskrift,
-		budgetMad: budgetMad,
-		rengoring: rengoring,
-		plet: plet,
-		badeforhang: badeforhang,
-		femRen: femRen,
-		skrald: skrald,
-		altanSat: altanSat,
-		sengeSat: sengeSat,
-		gorDetSelv: gorDetSelv,
-		flyttemand: flyttemand,
-		roomie: roomie,
-		infografik: infografik,
-		ikea: ikea,
-		fotex: fotex,
-		flyttehuskeliste: flyttehuskeliste,
+	
     }
 	
-	console.log('i am the navbar')
-	console.log(e.target.id)
-	
 	if (e.target.id) {
-//Hvis det er, så laver vi HTML'en om til den knap der er trykket på
-//Vi forsøger kun at lave siden om hvis at id'et findes i objektet "pages"
+//Hvis Eventlistneren registrerer et id ved klikket, udskiftes "page" med den string som er tilknyttet id'et
+//Siden kan kun udskiftes hvis id'et findes i objektet "pages"
         let id = e.target.id
 		
         if(pages[id] != undefined){
-            console.log("id found")
+//Her gør vi så billedet ikke loader siden ved klik
         e.preventDefault()
 			
+// Scroll to top når der klikkes på et id
 //https://stackoverflow.com/questions/4210798/how-to-scroll-to-top-of-page-with-javascript-jquery
         document.getElementById('page').innerHTML = pages[id],window.scrollTo(0, 0);
     }
@@ -1978,10 +1942,7 @@ document.getElementById('navPage').addEventListener('click', function (e){
 })
 document.getElementById('page').addEventListener('click', function (e) {
 	
-// Vi har vores pages liggende i et objekt så vi let kan hente den side vi ønsker
-// Hvis vi vil tilføje en ny side, er det eneste vi nu skal gøre at
-//Tilføje den til pages objektet og selvfølgelig have en knap der linker dertil
-// Men så er alt det andet faktisk automatisk :)
+//Når eventlistneren registrerer et klik i div'en "page" kaldes funktionen. Dette er vores content
     let pages = {
         inspiration: inspiration,
         home: home,
@@ -1996,7 +1957,7 @@ document.getElementById('page').addEventListener('click', function (e) {
 		commingSoonPrakGorSelv: commingSoonPrakGorSelv,
 		
 		
-	//her starter indlæg
+	//Indlægsobjekter
 		styrBudget: styrBudget,
 		ligBudget: ligBudget,
 		altanHave: altanHave,
@@ -2023,25 +1984,27 @@ document.getElementById('page').addEventListener('click', function (e) {
 		fotex: fotex,
 		flyttehuskeliste: flyttehuskeliste,
     }
-	console.log('i am the magic')
-	console.log(e.target.id)
 	
-//Her ser vi om det er et id der er trykket på
+//Her tjekkes om det er et id der er trykket på
     if (e.target.id) {
 		
-//Hvis det er, så laver vi HTML'en om til den knap der er trykket på
-//Vi forsøger kun at lave siden om hvis at id'et findes i objektet "pages"
+//Hvis Eventlistneren registrerer et id ved klikket, udskiftes "page" med den string som er tilknyttet id'et
+//Siden kan kun udskiftes hvis id'et findes i objektet "pages"
         let id = e.target.id
 		
         if(pages[id] != undefined){
-            console.log("id found")
+//Her gør vi så billedet ikke loader siden ved klik
         e.preventDefault()
+// Scroll to top når der klikkes på et id
+//https://stackoverflow.com/questions/4210798/how-to-scroll-to-top-of-page-with-javascript-jquery
         document.getElementById('page').innerHTML = pages[id], window.scrollTo(0, 0);
     }
     }
 })
 
-//// When the user scrolls down 20px from the top of the document, show the button
+//Dette er vores scroll-to-top knap med inspiration fra: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+//Når man scroller 20px ned fra toppen, vises knappen
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -2051,7 +2014,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
+//Nå knappen klikkes på, scrolles der til toppen automatisk
 
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
