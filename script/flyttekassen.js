@@ -47,14 +47,34 @@ let home = `
   </div>
 </div>
 <!--Content start--> 
-<div class="row align-content-center text-i-row text-intro">
-	<div class="col-2"></div>
+<div class="row text-center text-i-row text-intro">
+  <div class="col-12">
+    <h1>VELKOMMEN TIL FLYTTEKASSEN</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
   <div class="col-8">
-    <h3 class="text-center">VELKOMMEN TIL FLYTTEKASSEN!</h3>
     <p>Her kan du lære om, hvordan du bedst muligt kan flytte hjemmefra. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om at flytte hjemmefra, og forklarer det på en måde, så selv den mest uerfarende kan følge med.</p>
   </div>
-	<div class="col-2"></div>
+  <div class="col-2"></div>
 </div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Her kan du lære om, hvordan du bedst muligt kan flytte hjemmefra. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om at flytte hjemmefra, og forklarer det på en måde, så selv den mest uerfarende kan følge med.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
 <div class="row align-content-center text-i-row">
   <div class="col-12">
     <h3 class="text-center nyeIndlag">NYESTE INDLÆG</h3>
