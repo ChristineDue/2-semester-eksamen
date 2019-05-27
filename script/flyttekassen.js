@@ -1196,7 +1196,95 @@ let sengeSat = `
 
 `
 //Indlæg om et-værelses
-let etVarelse = ``
+let etVarelse = `
+<!--BREADCRUMBSTIEN-->
+<div class="row">
+	<div class="col-12 tilbageKnap">
+			<ul class="breadcrumb">
+			  <li><a href="#" id="home">HJEM</a></li>
+			  <li><a href="#" id="inspiration">INSPIRATION</a></li>
+			  <li><a href="#" id="indretning">INDRETNING</a></li>
+			  <li class="sidsteCrumb">INDRET DIN 1-VÆRELSES LEJLIGHED</li>
+			</ul>
+	</div>
+</div>
+
+<!--content-->
+<!--Indlæg HVORNÅR FLYTTER VI HJEMMEFRA-->
+	<div class="row text-center text-i-row">
+		<div class="col-12">
+			<h1>INDRET DIN 1-VÆRELSES LEJLIGHED</h1>
+		</div>
+	</div>
+	<div class="row text-center text-i-row pLarge">
+		<div class="col-2"></div>
+		<div class="col-8">
+			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
+		</div>
+		<div class="col-2"></div>
+	</div>
+<!--på lille ser den sådan her ud-->
+	<div class="row text-center text-i-row pSmall">
+		<div class="col-12">
+			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>1. tip:</h4>
+		</div>
+	</div>
+	
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/indlagsbilleder/rullebord.jpg" alt="Rullebord">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Det er sjældent man har meget køkkenplads, hvis du bor på få kvadratmeter. Det kan dog skaffes med et rullebord, som nemt kan skaffes i ikea. Her kan du have opbevaringsplads og samtidig får du et ekstra køkkenbord. </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>2. tip:</h4>
+		</div>
+	</div>
+	
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/indlagsbilleder/hyggekrog.jpg" alt="Hyggekrog">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Sofaplads er der heller ikke meget af på meget lidt plads. Men hvis man stadig prioriterer at have et lille hyggehjørne udover sengen, kan det nemt løses. Køb en dejlig stor sækkepude, lav vindueskarmen om til en hjemmelavet sofa eller find en behagelig lænestol, du kan ligge og flyde i. Frem med den indre kreativitet!  </p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<h4>3. tip:</h4>
+		</div>
+	</div>
+	
+	<div class="row text-center planter">
+		<div class="col-12">
+			<img class="img-fluid" src="images/indlagsbilleder/lillebord.jpg" alt="Lille spisebord">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-2"></div>
+		<div class="col-12 col-md-8">
+			<p>Hvis du bor alene eller med din kæreste på lidt plads, kan du spare lidt plads på spisebordet. Medmindre du tit får gæster over, kan et lille spisebord være rigeligt i hverdagen. Et lille bord, 2 stole og 2 klapstole i kælderen er alt hvad du behøver.</p>
+		</div>
+	</div>
+
+`
 
 									//INDKØBSIDEN
 //Indkøbssiden
@@ -1237,7 +1325,47 @@ let indkob = `
 
 `
 //Indlæg om ikea
-let ikea = ``
+let ikea = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="inspiration">INSPIRATION</a></li>
+      <li><a href="#" id="indkob">INDKØB</a></li>
+      <li class="sidsteCrumb">EN TUR I IKEA</li>
+    </ul>
+  </div>
+</div>
+<!--content-->
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>EN TUR I IKEA</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Kom med Maja på shoppingtur og få gode råd om, hvilke ting du skal bruge i din nye bolig!</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Vi har også, i samarbejde med Maja, lavet en indkøbsliste til, hvad vi mener du har brug for når du skal til at flytte hjemmefra, den kan du finde <a href="docs/shoppinglist.pdf" target="_blank">her</a>. Du kan også lave din helt egen liste på IKEA's hjemmeside.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+	<div class="col-12 video">
+  		<iframe src="https://www.youtube.com/embed/iKG0m0fH7xQ" allowfullscreen></iframe>
+	</div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 //Indlæg om føtex
 let fotex = `
 <!--BREADCRUMBSTIEN-->
@@ -1610,7 +1738,7 @@ let gorDetSelv = `
   <div class="col-12 tilbageKnap">
     <ul class="breadcrumb">
       <li><a href="#" id="home">HJEM</a></li>
-      <li><a href="#" id="inspiration">DET PRAKTISKE</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
       <li class="sidsteCrumb">GØR DET SELV</li>
     </ul>
   </div>
@@ -1698,7 +1826,58 @@ let flyttemand = `
 
 `
 //Indlæg om flyttehuskeliste
-let flyttehuskeliste = ``
+let flyttehuskeliste = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
+      <li class="sidsteCrumb">FLYTTEHUSKELISTEN</li>
+    </ul>
+  </div>
+</div>
+<!--content--> 
+<div class="row text-center text-i-row">
+  <div class="col-12">
+    <h1>FLYTTEHUSKELISTEN</h1>
+  </div>
+</div>
+<div class="row text-center text-i-row pLarge">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <p>Er du også i tvivl om, hvad du skal have med til din første flytning? Vi har samlet en hel liste, over de ting vi mener man har brug for til sin første flytning</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Er du også i tvivl om, hvad du skal have med til din første flytning? Vi har samlet en hel liste, over de ting vi mener man har brug for til sin første flytning</p>
+  </div>
+</div>
+
+<div class="row text-center planter">
+  <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/huskelisten.jpg" alt="Huskeliste til flytning"> </div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Listen er til dig der har brug for at få et overblik over hvad du mangler at få skaffet. Den opdeler nemlig efter rum og behov, som personlig pleje, og vil give dig chancen for at nå i mål. Du kan printe listen ud og hænge den op, og hvis du mener der mangler et punkt eller to kan du tilføje det, så listen kommer til at passe helt præcist til dig.</p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<div class="row">
+  <div class="col-2"></div>
+  <div class="col-12 col-md-8">
+    <p>Du kan med fordel downloade listen <a href="images/indlagsbilleder/huskelisten.jpg" target="_blank">her</a> for at få hjælp til planlægningen. </p>
+  </div>
+  <div class="col-2"></div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+`
 
 
 //Her sker alt magien, vi kigger på om en knap bliver trykket på
