@@ -123,21 +123,25 @@ let inspiration = `
 		<iframe src="//cdn.bannersnack.com/banners/bt3er8fi1/embed/index.html?userId=39096226&t=1558522136" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" allow="autoplay" allowfullscreen="true"></iframe>
   	
   </div>
-<div class="row text-center">
-  <div class="col-2"></div>
-  <div class="col-8 h1-intro">
+<div class="row text-center text-i-row text-intro">
+  <div class="col-12">
     <h1>INSPIRATION</h1>
   </div>
-  <div class="col-2"></div>
 </div>
-<div class="row text-i-row text-intro">
+<div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur.</p>
+    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur</p>
   </div>
   <div class="col-2"></div>
 </div>
 
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur</p>
+  </div>
+</div>
 
 <div class="row">
   <div class="col-12 col-md-6">
@@ -169,20 +173,24 @@ let praktisk = `
   </div>
 </div>
 <!--content--> 
-<!--Det praktiske-siden-->
-<div class="row text-center">
-  <div class="col-2"></div>
-  <div class="col-8 h1-intro">
+<div class="row text-center text-i-row text-intro">
+  <div class="col-12">
     <h1>DET PRAKTISKE</h1>
   </div>
-  <div class="col-2"></div>
 </div>
-<div class="row text-i-row text-intro">
+<div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
     <p>Denne side samler alt det dine forældre plejede at hjælpe dig med. Fik du ikke lært at rense afløbet, da du boede hjemme? Intet problem. Under vores side rengøring kan du finde tips og tricks, så dit nye hjem kan blive spotless.</p>
   </div>
   <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>Denne side samler alt det dine forældre plejede at hjælpe dig med. Fik du ikke lært at rense afløbet, da du boede hjemme? Intet problem. Under vores side rengøring kan du finde tips og tricks, så dit nye hjem kan blive spotless.</p>
+  </div>
 </div>
 
 <div class="row">
@@ -219,19 +227,24 @@ let okonomi = `
 </div>
 <!--content--> 
 <!--Økonomisiden-->
-<div class="row text-center">
-  <div class="col-2"></div>
-  <div class="col-8 h1-intro">
+<div class="row text-center text-i-row text-intro">
+  <div class="col-12">
     <h1>ØKONOMI</h1>
   </div>
-  <div class="col-2"></div>
 </div>
-<div class="row text-i-row text-intro">
+<div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
     <p>På denne side kan du lære om alt det du har brug for at vide om økonomi, når du flytter hjemmefra. Du kan få tips og tricks til hvordan du kan holde styr på din økonomi, hvad du skal sørge for at få i orden og gode råd.</p>
   </div>
   <div class="col-2"></div>
+</div>
+
+<!--på lille ser den sådan her ud-->
+<div class="row text-center text-i-row pSmall">
+  <div class="col-12">
+    <p>På denne side kan du lære om alt det du har brug for at vide om økonomi, når du flytter hjemmefra. Du kan få tips og tricks til hvordan du kan holde styr på din økonomi, hvad du skal sørge for at få i orden og gode råd.</p>
+  </div>
 </div>
 
 <div class="row">
