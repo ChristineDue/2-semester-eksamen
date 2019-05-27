@@ -1603,7 +1603,42 @@ let femRen = `
 `
 
 //Gør det selv siden
-let gorDetSelv = ``
+let gorDetSelv = `
+<!--BREADCRUMBSTIEN-->
+
+<div class="row">
+  <div class="col-12 tilbageKnap">
+    <ul class="breadcrumb">
+      <li><a href="#" id="home">HJEM</a></li>
+      <li><a href="#" id="inspiration">DET PRAKTISKE</a></li>
+      <li class="sidsteCrumb">GØR DET SELV</li>
+    </ul>
+  </div>
+</div>
+<!--content-->
+<div class="row">
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/lampedone.png" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="En lampe"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/tvbox_1.png" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="En tv-boks"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/tools.jpg" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="Værktøj"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/handbog.png" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="Håndbog"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/internet.jpg" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="Internet"> </a> </div>
+  </div>
+  <div class="col-12 col-md-4">
+    <div class="card bg-dark"> <a href=""> <img src="images/hylde.jpg" id="commingSoonPrakGorSelv" class="card-img rounded-0" alt="Hylde"> </a> </div>
+  </div>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
+
+`
 
 
 //Indlæg om flyttemand
