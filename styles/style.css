@@ -206,6 +206,9 @@ h4{
 	margin-left: 18%;
 }
 
+.banner{
+	display: inline;
+}
 /*Køkkenside*/
 .mad img{
 	height: auto;
@@ -318,5 +321,16 @@ h4{
 	width: 50%;
 	height: auto;
 	margin-top: 1.5%;
+}
+	
+.text-intro p{
+	text-align: left;
+}
+
+.banner{
+	display: none;
+}
+.badMakeover{
+	font-size: 0.7rem;		
 }
 }

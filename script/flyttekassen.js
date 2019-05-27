@@ -106,7 +106,7 @@ let inspiration = `
 <!--content--> 
 <!--iNSPIRATIONSSIDE-->
 
-<div class="col-12">
+<div class="col-12 banner">
 		<iframe src="//cdn.bannersnack.com/banners/bt3er8fi1/embed/index.html?userId=39096226&t=1558522136" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" allow="autoplay" allowfullscreen="true"></iframe>
   	
   </div>
@@ -186,7 +186,7 @@ let praktisk = `
     <div class="card bg-dark"> <a href=""> <img src="images/flytteliste.jpg" id="flyttehuskeliste" class="card-img rounded-0" alt="Flyttehuskeliste"> </a> </div>
   </div>
 </div>
-<div class="col-12">
+<div class="col-12 banner">
 		<iframe src="//cdn.bannersnack.com/banners/builg3i97/embed/index.html?userId=39096226&t=1558522195" width="100%" height="100%" scrolling="no" frameborder="0" allowtransparency="true" allow="autoplay" allowfullscreen="true"></iframe>
   	
   </div>
@@ -989,7 +989,7 @@ let makeoverBad = `
   </div>
 </div>
 <!--content-->
-<div class="row text-center text-i-row">
+<div class="row text-center text-i-row badMakeover">
   <div class="col-12">
     <h1>BADEVÆRELSESMAKEOVER</h1>
   </div>
