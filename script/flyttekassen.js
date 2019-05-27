@@ -68,13 +68,6 @@ let home = `
 </div>
 
 
-
-
-
-
-
-
-
 <div class="row align-content-center text-i-row">
   <div class="col-12">
     <h3 class="text-center nyeIndlag">NYESTE INDLÆG</h3>

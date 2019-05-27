@@ -344,8 +344,9 @@ h4{
 	font-size: 0.7rem;		
 }
 	
-iframe{
-	width: 50%;
-	height: auto;
+.video iframe {
+	width: 300px;
+	height: 55px;
+	margin-left: 0;
 }
 }
