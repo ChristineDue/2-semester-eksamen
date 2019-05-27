@@ -748,7 +748,7 @@ let insekt = `
   </div>
 </div>
 <!--content-->
-<div class="row text-center text-i-row">
+<div class="row text-center text-i-row pLarge">
   <div class="col-12">
     <h1>INSEKTHOTEL</h1>
     <p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>

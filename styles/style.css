@@ -308,4 +308,15 @@ h4{
 	height: auto;
 	width: 100%;
 }
+	
+#myBtn{
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 50px; /* Place the button 30px from the right */		
+}
+
+.logo{
+	width: 50%;
+	height: auto;
+	margin-top: 1.5%;
+}
 }
