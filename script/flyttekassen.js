@@ -255,7 +255,7 @@ let okonomi = `
     <div class="card bg-dark"> <a href=""> <img src="images/faellesoekonomi.jpg" id="commingSoonOko" class="card-img rounded-0" alt="Overbliv over fællesøkonomi"> </a> </div>
   </div>
   <div class="col-12 col-md-6">
-    <div class="card bg-dark"> <a href=""> <img src="images/su.png" id="commingSoonOko" class="card-img rounded-0" alt="SU"> </a> </div>
+    <div class="card bg-dark"> <a href=""><img src="images/su.png" id="commingSoonOko" class="card-img rounded-0" alt="SU"></a> </div>
   </div>
   <div class="col-12 col-md-6">
     <div class="card bg-dark"> <a href=""> <img src="images/licens.png" id="commingSoonOko" class="card-img rounded-0" alt="Licens"> </a> </div>
