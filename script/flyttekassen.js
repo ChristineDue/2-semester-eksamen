@@ -779,7 +779,7 @@ let insekt = `
     <h1>INSEKTHOTEL</h1>
   </div>
 </div>
-<div class="row text-center text-i-row pLarge">
+<div class="row text-center text-i-row">
   <div class="col-2"></div>
   <div class="col-8">
     <p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd!</p>
@@ -787,13 +787,6 @@ let insekt = `
   <div class="col-2"></div>
 </div>
 
-
-<!--på lille ser den sådan her ud-->
-<div class="row text-center text-i-row pSmall">
-  <div class="col-12">
-    <p>Byg dit eget Insekthotel og giv de små venner en hjælpende hånd! </p>
-  </div>
-</div>
 <div class="row text-center planter">
   <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/insekthus.jpg" alt="Insekthotel"> </div>
 </div>
@@ -834,7 +827,7 @@ let skrald = `
     <h1>FRA SKRALD TIL KØKKENHAVE</h1>
   </div>
 </div>
-<div class="row text-center text-i-row pLarge">
+<div class="row text-center text-i-row">
   <div class="col-2"></div>
   <div class="col-8">
     <p>Forvandle dine æggeskaller til din helt egen køkkenhave!</p>
@@ -842,12 +835,6 @@ let skrald = `
   <div class="col-2"></div>
 </div>
 
-<!--på lille ser den sådan her ud-->
-<div class="row text-center text-i-row pSmall">
-  <div class="col-12">
-    <p>Forvandle dine æggeskaller til din helt egen køkkenhave!</p>
-  </div>
-</div>
 <div class="row text-center planter">
   <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/eggsforside.jpg" alt="Æggebakke uden blomster"> </div>
 </div>
