@@ -902,7 +902,7 @@ let piftStuen = `
       <li><a href="#" id="home">HJEM</a></li>
       <li><a href="#" id="inspiration">INSPIRATION</a></li>
       <li><a href="#" id="indretning">INDRETNING</a></li>
-      <li class="sidsteCrumb">4 GODE IDÉER TIL AT PIFTE DIN STUE OP</li>
+      <li class="sidsteCrumb">PIFT STUEN OP</li>
     </ul>
   </div>
 </div>
@@ -910,7 +910,7 @@ let piftStuen = `
 <!--indlæg pift din stue-->
 <div class="row text-center text-i-row">
   <div class="col-12">
-    <h1>4 GODE IDÉER TIL AT PIFTE DIN STUE OP</h1>
+    <h1>PIFT STUEN OP</h1>
   </div>
 </div>
 <div class="row text-center text-i-row pLarge">
@@ -1665,14 +1665,14 @@ let femRen = `
       <li><a href="#" id="home">HJEM</a></li>
       <li><a href="#" id="praktisk">DET PRAKTISKE</a></li>
       <li><a href="#" id="rengoring">RENGØRING</a></li>
-      <li class="sidsteCrumb">5 GODE RENGØRINGSRÅD</li>
+      <li class="sidsteCrumb">5 TRICKS TIL RENGØRING</li>
     </ul>
   </div>
 </div>
 <!--content--> 
 <div class="row text-center text-i-row">
   <div class="col-12">
-    <h1>5 GODE RENGØRINGSRÅD</h1>
+    <h1>5 TRICKS TIL RENGØRING</h1>
   </div>
 </div>
 <div class="row text-center text-i-row">

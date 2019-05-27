@@ -295,4 +295,17 @@ h4{
 .slideshowLarge{
 	display: none;
 }
+
+/*Stue*/
+.planter img{
+	height: auto;
+	width: 60%;
+}
+
+/*Altan og  have*/
+
+.altan img{
+	height: auto;
+	width: 100%;
+}
 }
