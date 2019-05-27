@@ -51,7 +51,7 @@ let home = `
 	<div class="col-2"></div>
   <div class="col-8">
     <h3 class="text-center">VELKOMMEN TIL FLYTTEKASSEN!</h3>
-    <p>Her kan du lære hvordan du bedst muligt kan flyve fra reden. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om din første flytning og forklarer det på en måde, så selv den mest uerfarende kan følge med.</p>
+    <p>Her kan du lære om, hvordan du bedst muligt kan flytte hjemmefra. Du kan finde gode råd om alt fra indretning og økonomi til håndtering af roomie problemer. Denne hjemmeside samler alt, hvad der er værd at vide om at flytte hjemmefra, og forklarer det på en måde, så selv den mest uerfarende kan følge med.</p>
   </div>
 	<div class="col-2"></div>
 </div>
@@ -1081,7 +1081,7 @@ let sengeSat = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig</p>
+    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig. Du kan klikke på billederne for at købe sættene.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1089,7 +1089,7 @@ let sengeSat = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
   <div class="col-12">
-    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig</p>
+    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig. Du kan klikke på billederne for at købe sættene.</p>
   </div>
 </div>
 <div class="row">

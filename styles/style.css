@@ -229,7 +229,7 @@ h4{
 											/*footer styling*/
 
 #footer{
-	background-color: #ddd;
+	background-color: #EACED5;
 	margin-top: 5%;
 }
 .footerRow{
@@ -276,7 +276,7 @@ h4{
 	color: black;
 }
 .portfolio a:hover{
-	color: #ddd;
+	color: white;
 }
 
 
