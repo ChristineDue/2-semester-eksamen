@@ -933,19 +933,12 @@ let piftStuen = `
     <h1>PIFT STUEN OP</h1>
   </div>
 </div>
-<div class="row text-center text-i-row pLarge">
+<div class="row text-center text-i-row">
   <div class="col-2"></div>
   <div class="col-8">
     <p>At få en lækker stue kan ofte være en dyr fornøjelse. Her får du tips og tricks til, hvordan du billigt kan pifte din stue op til billige penge! </p>
   </div>
   <div class="col-2"></div>
-</div>
-
-<!--på lille ser den sådan her ud-->
-<div class="row text-center text-i-row pSmall">
-  <div class="col-12">
-    <p>At få en lækker stue kan ofte være en dyr fornøjelse. Her får du tips og tricks til, hvordan du billigt kan pifte din stue op til billige penge! </p>
-  </div>
 </div>
 <div class="row">
   <div class="col-2"></div>
@@ -1406,7 +1399,7 @@ let fotex = `
     <h1>DIN FØRSTE INDKØBSTUR</h1>
   </div>
 </div>
-<div class="row text-center text-i-row">
+<div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
     <p>Hvad har man egentlig brug for på sin første indkøbstur i supermarkedet? Vi har lavet en indkøbsliste til dig, der ikke er helt sikker på hvad man egentlig skal sørge for selv, når man er flyttet hjemmefra. Du kan downloade indkøbslisten ned, printe den ud og tilføje ting til den selv</p>
