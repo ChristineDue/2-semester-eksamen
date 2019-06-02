@@ -131,7 +131,7 @@ let inspiration = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur</p>
+    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lære om, hvordan du optimerer din indretning, og hvad der er smart at købe på din første indkøbstur</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -235,7 +235,7 @@ let okonomi = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>På denne side kan du lære om alt det du har brug for at vide om økonomi, når du flytter hjemmefra. Du kan få tips og tricks til hvordan du kan holde styr på din økonomi, hvad du skal sørge for at få i orden og gode råd.</p>
+    <p>På denne side kan du lære om alt det du har brug for at vide om økonomi, når du flytter hjemmefra. Du kan få tips og tricks til hvordan du kan holde styr på din økonomi, og hvad du skal sørge for at få i orden og gode råd.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -470,8 +470,7 @@ let roomie = `
   <div class="col-12 col-md-8">
     <h4>SÅDAN UNDGÅR DU KONFLIKTER</h4>
     <p>1. Gem dig ikke bag telefonen, fortæl din roomie face to face, hvis du har et problem. Ofte skabes konflikter pga. misforståelser og dette kan ofte ske over besked</p>
-    <p>2. Skab klarer regler for rengøring af fælles områderne og hjælp hinanden med at overhold dem</p>
-    <p>3. Fortæl din roomie om dine planer. Hvis du holder fest, stopper på studiet eller har du sagt op på arbejdet, er det altid godt at involvere roomie. </p>
+    <p>2. Skab klare regler for rengøring af fælles områderne og hjælp hinanden med at overhold dem</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -508,7 +507,7 @@ let infografik = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
   <div class="col-12">
-    <p>Hvornår flyver vi danskere endeligt fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
+    <p>Hvornår flyver vi danskere egentlig fra reden? Vi har sammensat nogle grafiker, som kan give dig svaret på det! Her kan du sammenligne dig selv med statistikken og få svar på om du er en early bird eller en late bloomer.</p>
   </div>
 </div>
 <div class="row">
@@ -538,7 +537,7 @@ let infografik = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>Cirkeldiagrammerne fortæller om, hvilken forskel der er i religioner, samt hvordan tallene var tilbage i 2010. Som du kan se, har tallene ikke ændret sig meget. </p>
+    <p>Cirkeldiagrammerne fortæller om, hvilken forskel der er i regioner, samt hvordan tallene var tilbage i 2010. Som du kan se, har tallene ikke ændret sig meget. </p>
   </div>
 </div>
 <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
@@ -557,7 +556,7 @@ let styrBudget = `
     <ul class="breadcrumb">
       <li><a href="#" id="home">HJEM</a></li>
       <li><a href="#" id="okonomi">ØKONOMI</a></li>
-      <li class="sidsteCrumb">HOLD STYR PÅ DIT BUGDET</li>
+      <li class="sidsteCrumb">HOLD STYR PÅ DIT BUDGET</li>
     </ul>
   </div>
 </div>
@@ -565,7 +564,7 @@ let styrBudget = `
 <!--Indlæg FÅ ØKONOMISK OVERSKUD-->
 <div class="row text-center text-i-row">
   <div class="col-12">
-    <h1>HOLD STYR PÅ DIT BUGDET</h1>
+    <h1>HOLD STYR PÅ DIT BUDGET</h1>
   </div>
 </div>
 <div class="row text-center text-i-row">
@@ -583,9 +582,9 @@ let styrBudget = `
   <div class="col-12 col-md-8">
     <p>1. Tegn firkanter, så de er lig med/repræsentere det antal dage, der er i måneden. </p>
     <p>2. Skriv månedens datoer ovenfor dine firkanter, så du kan se hvilke dage der bliver brugt penge. </p>
-    <p>3. Tag et kig på dit budget og beslut dig for, hvor mange penge du har om måneden. (( Hvis du er i tvivl om, hvordan man lægger et budget kan du læse mere på her: (link). )) </p>
+    <p>3. Tag et kig på dit budget og beslut dig for, hvor mange penge du har om måneden</p>
     <p>4. Få gang i farverne! Opskriv kategorier, som giver mening for dig og brug endeligt farver. Jeg har valgt at bruge farverne grøn, gul, orange og rød, men du kan vælge din helt egen farvepalette! </p>
-    <p>Du kan nu få overblik af dine køb på en visuel måde. Budget kan give dig muligheden for at hele tiden vide, hvor meget du har tilbage til resterende af måneden og sammenligne dit forbrug med andre måneder. </p>
+    <p>Du kan nu få overblik over dine køb på en visuel måde. Budgettet kan give dig muligheden for hele tiden at vide, hvor meget du har tilbage til resten af måneden og sammenligne dit forbrug med andre måneder. </p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -631,8 +630,8 @@ let ligBudget = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>1. sæt dig ned en dag hvor du har god tid og find ud af hvad du ca. tjener om måneden, hvad du får i SU, hvad du betaler til din forsikringer, transport, mad, netflix og andet. Skriv det ind i excel styr på det</p>
-    <p>2. har du en roomie kan I med fordel gøre det sammen, det er lettere hvis man får hjælp</p>
+    <p>1. sæt dig ned en dag hvor du har god tid og find ud af, hvad du ca. tjener om måneden, hvad du får i SU, hvad du betaler til din forsikringer, transport, mad, netflix og andet. Skriv det ind i excel for at få bedre styr på det</p>
+    <p>2. Har du en roomie kan I med fordel gøre det sammen, det er lettere, hvis man får hjælp</p>
     <p>3. Dine udgifter skal helst ikke være større end din indtjening. Sørg for at skære ned på luksusting som netflix, hvis dit forbrug er for højt</p>
   </div>
   <div class="col-2"></div>
@@ -640,7 +639,7 @@ let ligBudget = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>Du kan med fordel downloade dette <a href=”#”>budget skema</a> for at få hjælp til planlægningen. </p>
+    <p>Du kan med fordel downloade dette <a href="images/indlagsbilleder/budget-lig.jpg" target="_blank  ">budget skema</a> for at få hjælp til planlægningen. </p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -709,7 +708,7 @@ let altanSat = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
+    <p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i, når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -717,7 +716,7 @@ let altanSat = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
   <div class="col-12">
-    <p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
+    <p>Ligemeget om du kun har en lille altan eller om du har en stor have, så har man altid brug for noget at sidde i, når man er ude i det fri. Det er en ren luksus i sig selv at man har muligheden for at sidde ude, men hvis man ikke lige kan finde et altan/have sæt der passer til dig, har vi fundet nogle frem i forskellige størrelser</p>
   </div>
 </div>
 <div class="row">
@@ -727,8 +726,8 @@ let altanSat = `
     <div class="text-center altan">
       <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/hyggeligemobler.jpg" alt="Altansæt"> </div>
     </div>
-    <p>Det her sæt er et cafesæt, og den slags kan fås i de fleste møbelforretninger som også har havemøbler bare i forskellige udgaver. Et godt tip er at købe det i en frisk farve, så man kan komme i endnu højere humør når man skal sidde ude og nyde solen. </p>
-    <p>Find det<a href="https://www.beliani.dk/cafesaet-foldebord-med-2-stol-bla-fiori.html"> her</a></p>
+    <p>Det her sæt er et cafésæt, og den slags kan fås i de fleste møbelforretninger som også har cafésæt bare i forskellige udgaver. Et godt tip er at købe det i en frisk farve, så man kan komme i endnu højere humør når man skal sidde ude og nyde solen. </p>
+    <p>Find det<a href="https://www.beliani.dk/cafesaet-foldebord-med-2-stol-bla-fiori.html" target="_blank"> her</a></p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -740,7 +739,7 @@ let altanSat = `
       <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/traemobler.jpg" alt="Altansæt"> </div>
     </div>
     <p>Nogen gange er det man kender altså bare bedst. De fleste kender nogle der har et havemøbelsæt i træ, da det er praktisk, pænt og komfortabelt. Dette sæt vi har fundet til jer, er med et bord som også kan fungere som bakke. Det kan være super praktisk når du skal have din mad eller andre ting med inde fra huset og ud på altanen.</p>
-    <p>Find det<a href="https://www.beliani.dk/altanet-havemobelset-tre-2stole-1bord-toscana.html"> her</a></p>
+    <p>Find det<a href="https://www.beliani.dk/altanet-havemobelset-tre-2stole-1bord-toscana.html" target="_blank"> her</a></p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -749,10 +748,10 @@ let altanSat = `
   <div class="col-12 col-md-8">
     <h4 class="startH4">DET MERE FANCY SÆT</h4>
     <div class="text-center altan">
-      <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/fancymobler.jpg" alt="Altansæt"> </div>
+      <div class="col-12"> <img class="img-fluid" src="images/indlagsbilleder/fancymobler.jpg " alt="Altansæt"> </div>
     </div>
     <p>Sættet her er mere til dem der går op i kvalitet og udseende. Det er det helt rigtige sæt til dig der gerne vil have de fede instagram altan billeder. Udover at det ser godt ud, så kan vi næsten garanterer for at det også er komfortabelt.</p>
-    <p>Find det<a href="https://www.beliani.dk/udendors-indendors-cafe-sat-altan-sat-bord-og-2-stole-hvid-acapulco.html"> her</a></p>
+    <p>Find det<a href="https://www.beliani.dk/udendors-indendors-cafe-sat-altan-sat-bord-og-2-stole-hvid-acapulco.html" target="_blank"> her</a></p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -794,12 +793,11 @@ let insekt = `
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
     <h4 class="startH4">INSTRUKTIONER</h4>
-    <p>Insekter spiller en væsentlig rolle i vores økosystem og det er vigtigt at vi passer på dem.
-      Hvad skal du bruge: En beholder, træstykker, pinde, brak,nedfaldende blad og grankogler. <br>
-      Sådan bygger du nemt og hurtigt et insekthotel.</p>
-    <p>1. Anskaf en beholder, som kan skabe rammer for hotellet. Dette kan eksempelvis være en dåse eller en gamle kasse, som du har liggende.</p>
+    <p>Insekter spiller en væsentlig rolle i vores økosystem, og det er vigtigt at vi passer på dem.
+      Sådan bygger du nemt og hurtigt et insekthotel.<br>Hvad skal du bruge: En beholder, træstykker, pinde, bark, nedfaldende blade og grankogler.</p>
+    <p>1. Anskaf en beholder, som kan skabe ramme for dit hotel. Dette kan eksempelvis være en dåse eller en gamle kasse, som du har liggende.</p>
     <p>2. Gå en tur i haven eller naturen og indsaml nedfaldne blade, træstykker, grankogler og pinde. Disse skal du bruge til at udfylde dit hotel. Pak det så tæt som muligt.</p>
-    <p>3. Dit hotel er nu klar til gæster! Du skal blot placér hotellet et solrigt sted, som er i ly for vind og vejr. Et oplagt sted kunne eksempelvis være på din terrassen/altanen eller i enden af haven.</p>
+    <p>3. Dit hotel er nu klar til gæster! Du skal blot placere hotellet et solrigt sted, som er i ly for vind og vejr. Et oplagt sted kunne eksempelvis være på din terrassen/altanen eller i enden af haven.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -853,7 +851,7 @@ let skrald = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>Æggeskaller indeholder en masse calcium som planterne kan nyde godt af, og som kan give gode vækstbetingelser. Æggeskallerne vil skabe den perfekte grobund for din køkkenhave og når frøene er vokset kan du omplante dem i større krukker eller beholdere.</p>
+    <p>Æggeskaller indeholder en masse calcium som planterne kan nyde godt af, og som kan give gode vækstbetingelser. Æggeskallerne vil skabe den perfekte grobund for din køkkenhave og når frøene er vokset, kan du omplante dem i større krukker eller beholdere.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -955,7 +953,7 @@ let piftStuen = `
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
     <h4>2. PLAKATER PÅ DINE HVIDE VÆGGE</h4>
-    <p>Hvide vægge giver ofte et kedeligt og upersonligt udtryk. Køb billige plakater og billeder på loppemarkeder og hæng dem op. Du kan finde en guide til hvordan du nemt hænger plakater op her (lav en button hvor en html side med en guide kommer frem når der trykkes)</p>
+    <p>Hvide vægge giver ofte et kedeligt og upersonligt udtryk. Køb billige plakater og billeder på loppemarkeder og hæng dem op. </p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1010,8 +1008,8 @@ let makeoverBad = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
-      Denne guide er nemlig til dig, som ikke har mange penge mellem hænder og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt. </p>
+    <p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guide til dig! 
+      Denne guide er nemlig til dig, som ikke har mange penge mellem hænderne og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt. </p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1019,15 +1017,15 @@ let makeoverBad = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
   <div class="col-12">
-    <p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guid til dig! 
-      Denne guide er nemlig til dig, som ikke har mange penge mellem hænder og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt. </p>
+    <p>Giv dit badeværelse en makeover! Lever du også med et badeværelse, som har nogle karakteristiske klinker og mangler et lille pift er dette den perfekte guide til dig! 
+      Denne guide er nemlig til dig, som ikke har mange penge mellem hænderne og gerne på en nem, hurtigt og billig måde gøre dit badeværelse til noget specielt. </p>
   </div>
 </div>
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
     <h4 class="startH4">1. HÆNG SKABE OG HYLDER OP</h4>
-    <p>Hvis du står og mangler skabsplads, kan investere i nogle nye skabe, ikke blot løse dit skabsplads problem, men også giv badeværelset et helt nyt look!  
+    <p>Hvis du står og mangler skabsplads, kan du investere i nogle nye skabe, ikke blot løse dit skabsplads problem, men også giv badeværelset et helt nyt look!  
       Med hylder kan du pimpe badeværelset op med dine bedste brugsgenstand og andre nips ting.</p>
   </div>
   <div class="col-2"></div>
@@ -1039,7 +1037,7 @@ let makeoverBad = `
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
     <h4>2. BRUG DINE KLINKER</h4>
-    <p>80ér klinker behøver ikke være dit badeværelses svaghed. Ram genbrugsbutikkerne og grav gamle møbler, vaser, spejle og små ting, fra samme periode frem! Vær badeværelses periode tro og få et stilmæssigt mere sammenhængende værelse.</p>
+    <p>80ér klinker behøver ikke være dit badeværelses svaghed. Ram genbrugsbutikkerne og grav gamle møbler, vaser, spejle og små ting fra samme periode frem! Vær badeværelsesstilen tro og få et stilmæssigt og mere sammenhængende badeværelse.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1088,13 +1086,13 @@ let sengeSat = `
 <!--content-->
 <div class="row text-center text-i-row">
   <div class="col-12">
-    <h1>SOV GODT MED LÆKRE SENGESÆT</h1>
+    <h1>LÆKRE SENGESÆT</h1>
   </div>
 </div>
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig. Du kan klikke på billederne for at købe sættene.</p>
+    <p>Et lækkert sengesæt kan gøre meget for dit soveværelse. Hvis du har hvide vægge og en rimelig almindelig seng, kan sengesættet være det der pifter dit værelse op. Der findes flere tusind forskellige varianter af sengesæt, derfor kan det være svært at finde det der passer lige præcis til dig. Om du er mest til god kvalitet, det farverige eller det ekstra lange har vi samlet 10 forskellige slags, så du bedre kan finde det der passer til dig. Du kan klikke på billederne for at købe sættene.</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1232,14 +1230,14 @@ let etVarelse = `
 	<div class="row text-center text-i-row pLarge">
 		<div class="col-2"></div>
 		<div class="col-8">
-			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
+			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til, hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
 		</div>
 		<div class="col-2"></div>
 	</div>
 <!--på lille ser den sådan her ud-->
 	<div class="row text-center text-i-row pSmall">
 		<div class="col-12">
-			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
+			<p>Hvis du heller ikke har så meget plads i din lejlighed, skal du se med her. Vi har fundet tips og tricks til, hvordan du kan indrette din lille lejlighed, men hvor der stadig er plads til det hele og hvad man har brug for.</p>
 		</div>
 	</div>
 	<div class="row">
@@ -1293,7 +1291,7 @@ let etVarelse = `
 	<div class="row">
 		<div class="col-2"></div>
 		<div class="col-12 col-md-8">
-			<p>Hvis du bor alene eller med din kæreste på lidt plads, kan du spare lidt plads på spisebordet. Medmindre du tit får gæster over, kan et lille spisebord være rigeligt i hverdagen. Et lille bord, 2 stole og 2 klapstole i kælderen er alt hvad du behøver.</p>
+			<p>Hvis du bor alene eller med din kæreste på lidt plads, kan du spare lidt plads på spisebordet. Medmindre du tit får gæster over, kan et lille spisebord være rigeligt i hverdagen. Et lille bord, 2 stole og 2 klapstole i kælderen er alt, hvad du behøver.</p>
 		</div>
 	</div>
 
@@ -1402,7 +1400,7 @@ let fotex = `
 <div class="row text-center text-i-row pLarge">
   <div class="col-2"></div>
   <div class="col-8">
-    <p>Hvad har man egentlig brug for på sin første indkøbstur i supermarkedet? Vi har lavet en indkøbsliste til dig, der ikke er helt sikker på hvad man egentlig skal sørge for selv, når man er flyttet hjemmefra. Du kan downloade indkøbslisten ned, printe den ud og tilføje ting til den selv</p>
+    <p>Hvad har man egentlig brug for på sin første indkøbstur i supermarkedet? Vi har lavet en indkøbsliste til dig, der ikke er helt sikker på, hvad man egentlig skal sørge for selv, når man er flyttet hjemmefra. Du kan downloade indkøbslisten ned, printe den ud og tilføje ting til den selv</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1653,7 +1651,7 @@ let badeforhang = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>1. Hvis du ofte vasker dit badeforhæg kan det blot vaskes ved 40 grader. Det er vigtigt at du derefter hænger forhænget op bagefter, da det kommer til at lugte grimt hvis ikke det bliver tørt</p>
+    <p>1. Hvis du ofte vasker dit badeforhæg kan det blot vaskes ved 40 grader. Det er vigtigt at du derefter hænger forhænget op bagefter, da det kommer til at lugte grimt, hvis ikke det bliver tørt</p>
     <p>2. Hvis dit badeforhæng har gule mærker efter kalk, kan du med fordel lægge det i blød i en balje med 1dl rodalon og 1 liter vand. Rodalon fjerne bakterier og afbleger samtidig. Husk; pas på dit tøj</p>
     <p>3. Skurecreme er den sidste og mest fantastiske løsning på et beskidt forhæng. Smør skurecreme på dit badeforhæng og brug en svamp til at skrubbe pletter og snavs væk. Vupti, et helt rent badeforhæng!</p>
   </div>
@@ -1662,7 +1660,7 @@ let badeforhang = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>Husk at du hjælper miljøet hvis du lade være med at købe nye forhæng når dit gamle er beskidt!</p>
+    <p>Husk at du hjælper miljøet, hvis du lade være med at købe nye forhæng når dit gamle er beskidt!</p>
   </div>
   <div class="col-2"></div>
 </div>
@@ -1823,13 +1821,11 @@ let flyttemand = `
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
     <p>1. Lav en liste over alle dine møbler/genstande, som du skal have flyttet. 
-      Noter eventuelt om du har genstand, flyttemanden skal være ekstra varsom med.
+      Notér eventuelt om du har genstande flyttemanden skal være ekstra varsom med.
       Listen vil give dig et bedre overblik, når du taler med din flyttemand i telefonen. </p>
     <p>2. Fortæl din flyttemand om du har brug for hjælp med at afmonterer vaskemaskinen eller lamper. Hvis du har problemer med at gøre andre ting selv, som eksempelvis flytterengøring eller at tage dine gardiner ned, kan du altid spørger din flyttemand</p>
-    <p>3. Fortæl din flyttemand, hvor du bor og hvilke muligheder de har for parkering?  
-      Skal du flytte fra 4. sal eller fra dine forældres 1-plans parcelhus. Fortæl også
-      flyttemanden, hvor du skal flytte hen </p>
-    <p>4. Det er altid en god ide at spørge flyttemanden indtil til forsikring, i tilfælde af, at der
+    <p>3. Fortæl din flyttemand, hvor du bor og hvilke muligheder de har for parkering, om du skal flytte fra 4. sal eller fra dine forældres 1-plans parcelhus. Fortæl også flyttemanden, hvor du skal flytte hen </p>
+    <p>4. Det er altid en god ide at spørge flyttemanden ind til forsikring i tilfælde af, at der
       skulle ske noget. Flyttemanden sørger naturligvis for at passe på dine ting, men for
       en sikkerheds skyld </p>
   </div>
@@ -1878,7 +1874,7 @@ let flyttehuskeliste = `
 <div class="row">
   <div class="col-2"></div>
   <div class="col-12 col-md-8">
-    <p>Listen er til dig der har brug for at få et overblik over hvad du mangler at få skaffet. Den opdeler nemlig efter rum og behov, som personlig pleje, og vil give dig chancen for at nå i mål. Du kan printe listen ud og hænge den op, og hvis du mener der mangler et punkt eller to kan du tilføje det, så listen kommer til at passe helt præcist til dig.</p>
+    <p>Listen er til dig der har brug for at få et overblik over, hvad du mangler at få skaffet. Den opdeler nemlig efter rum og behov, som personlig pleje, og vil give dig chancen for at nå i mål. Du kan printe listen ud og hænge den op, og hvis du mener der mangler et punkt eller to kan du tilføje det, så listen kommer til at passe helt præcist til dig.</p>
   </div>
   <div class="col-2"></div>
 </div>
