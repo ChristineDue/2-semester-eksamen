@@ -139,7 +139,7 @@ let inspiration = `
 <!--på lille ser den sådan her ud-->
 <div class="row text-center text-i-row pSmall">
   <div class="col-12">
-    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lærer om, hvordan du optimere din indretning og hvad der er smart at købe på din første indkøbstur</p>
+    <p>En side, som kan give dig nye ideer og inspiration til din altan og have, indretning, indkøb og opskrifter. Herunder kan du blandt andet lære om, hvordan du optimerer din indretning og hvad der er smart at købe på din første indkøbstur</p>
   </div>
 </div>
 
